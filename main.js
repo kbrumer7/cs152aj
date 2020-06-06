@@ -45,6 +45,10 @@ app.get("/belle", (req, res) => {
   res.render("belle");
 });
 
+app.get("/mass", (req, res) => {
+  res.render("mass");
+});
+
 app.get("/contact", homeController.showSignUp);
 app.post("/contact", homeController.postedSignUpForm);
 
