@@ -6,6 +6,15 @@ const express = require("express"),
   errorController = require("./controllers/errorController"),
   layouts = require("express-ejs-layouts");
 
+const mongoose = require("mongoose");
+mongoose.connect(
+   'mongodb://localhost/classSearch',
+   {useNewUrlParser:true})
+
+const db = mongoose.connection;
+db.on('error',(x)=>console.log("connection error"+x))
+db.once('open',(x)=>console.log("We connected at "+new Date()+x))
+
 app.set("view engine", "ejs");
 app.set("port", process.env.PORT || 3000);
 app.use(
@@ -13,12 +22,21 @@ app.use(
     extended: false
   })
 );
+
 app.use(express.json());
 app.use(layouts);
 app.use(express.static("public"));
 
 app.get("/", (req, res) => {
   res.render("index");
+});
+
+app.get("/forum", (req, res) => {
+  res.render("forum");
+});
+
+app.get("/createPost", (req, res) => {
+  res.render("createPost");
 });
 
 app.get("/about", (req, res) => {
@@ -50,7 +68,69 @@ app.get("/mass", (req, res) => {
 });
 
 app.get("/contact", homeController.showSignUp);
-app.post("/contact", homeController.postedSignUpForm);
+app.get("/forum", homeController.showForum);
+
+
+const Contact =require("./models/Contact")
+const forum = require("./models/forum")
+
+app.get("/showContacts",
+   async (req,res) => {
+     try {
+       res.locals.contacts = await Contact.find({})
+       //res.json(res.locals.contacts)
+       res.render('showContacts')
+     }
+     catch(theError){
+       console.log("Error:")
+       res.send("There was an error in /showContacts!")
+
+     }
+   });
+
+app.post('/contact',
+  async (req,res) => {
+    try {
+      let name = req.body.name
+      let email = req.body.email
+      let newContact = new Contact({name:name, email:email})
+      await newContact.save()
+      res.redirect('/showContacts')
+    }
+    catch(e) {
+      res.send("error in addContact")
+    }
+  })
+
+app.get("/forum",
+   async (req,res) => {
+     try {
+       res.locals.forum = await forum.find({})
+       //res.json(res.locals.contacts)
+       res.render('forum')
+     }
+     catch(theError){
+       console.log("Error:")
+       res.send("There was an error in forum!")
+
+     }
+   });
+
+app.post('/createPost',
+  async (req,res) => {
+    try {
+      let name = req.body.name
+      let state = req.body.state
+      let title = req.body.title
+      let body = req.body.body
+      let newPost = new forum({name:name, state:state, title:title, body:body})
+      await newPost.save()
+      res.redirect('/forum')
+    }
+    catch(e) {
+      res.send("error in createPost")
+    }
+  })
 
 app.use(errorController.pageNotFoundError);
 app.use(errorController.internalServerError);
