@@ -1,0 +1,88 @@
+<!--Adapting from mass.ejs in progress-->
+
+<!--Add fields to hold state-specific data here-->
+<!-- like State name. More info webside, Phase message, etc.-->
+
+<div>
+  <%
+    const stateName = "New York",
+      phaseMsg = "Phase 1 or 2",
+      moreInfoURL = "https://forward.ny.gov/",
+      updateMsg = "New York is in Phase 2 everywhere except New York City (Phase 1).";
+
+    const governor = {
+        "name" : "Andrew Cuomo",
+        "photo" : "https://www.ny.gov/sites/ny.gov/files/thumbnails/image/CuomoGovSectionPhoto.jpg"
+      };
+
+      const activeCases = "???"
+  %>
+</div>
+
+<div class="jumbotron text-center">
+  <h1><%=stateName%> <small><%=phaseMsg%></small></h1>
+  <p><a href=<%=moreInfoURL%> target="_blank" rel="nofollow">Click here</a> for the state's latest response to COVID-19</p>
+</div>
+
+<div class = "container pt-3">
+  <div align = "center">
+    <h3><%=updateMsg%></h3>
+  </div>
+</div>
+
+<div class = "container">
+  <!-- <div align = "center">
+    <img src="/images/statusbar/phase2.svg" class="img-fluid">
+  </div> -->
+</div>
+
+<div class="container pt-3">
+  <div class="row">
+    <div class="col-sm-6">
+      <h3><%=governor["name"]%></h3>
+      <img src=<%=governor["photo"]%> class="rounded" alt="" class="img-fluid">
+    </div>
+    <div class="col-sm-6">
+      <img src="https://forward.ny.gov/sites/g/files/oee1166/files/media/2020/06/nys_regionslabels_nyforwardreopeningphases_04.png" class="rounded" alt="" class="img-fluid">
+      <b>image from <a href="https://forward.ny.gov/">forward.ny.gov</a></b>
+      <h3 align = "center">Statistics</h3>
+      <table class="table table-bordered" align = "center">
+        <tbody>
+          <tr>
+            <td>Positive Tests</td>
+            <td><%=covidData['positive'].toLocaleString()%></td>
+          </tr>
+          <tr>
+            <td>Negative Tests</td>
+            <td><%=covidData['negative'].toLocaleString()%></td>
+          </tr>
+          <tr>
+            <td>Total Tests</td>
+            <td><%=covidData['total'].toLocaleString()%></td>
+          </tr>
+          <tr>
+            <td>Total Deaths</td>
+            <td><%=covidData['death'].toLocaleString()%></td>
+          </tr>
+          <tr>
+            <td>Active cases</td>
+            <td><%=activeCases%></td>
+          </tr>
+        </tbody>
+        <b>last updated:
+          <% let str = covidData['date'].toString() %>
+          <%= str.substring(0,4)+"-"+str.substring(4,6)+"-"+str.substring(6,8) %>
+        </b>
+        <b>
+          <br>
+          <%= covidData['state'] %> data from <a href=https://covidtracking.com>covidtracking.com</a>
+        </b>
+      </table>
+      <h3 align = "center">The Latest</h3>
+      <ul>
+        <li>•••</li>
+        <li>•••</li>
+      </ul>
+    </div>
+  </div>
+</div>

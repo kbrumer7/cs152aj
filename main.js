@@ -4,6 +4,7 @@ const express = require("express"),
   app = express(),
   homeController = require("./controllers/homeController"),
   errorController = require("./controllers/errorController"),
+  stateController = require("./controllers/stateController"),
   layouts = require("express-ejs-layouts");
 
 const Contact =require("./models/Contact")
@@ -131,6 +132,10 @@ app.post('/showForum',
       res.send("error in createPost")
     }
   })
+
+/*Load State Pages with Data*/
+//Maybe someday we can automate parts of this
+app.get("/ny", stateController.showStateWithData);
 
 app.use(errorController.pageNotFoundError);
 app.use(errorController.internalServerError);
