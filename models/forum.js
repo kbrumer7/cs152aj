@@ -9,4 +9,4 @@ const forumSchema = Schema( {
   body: String
 });
 
-module.exports = mongoose.model('createPost',forumSchema);
+module.exports = mongoose.model('Forum',forumSchema);

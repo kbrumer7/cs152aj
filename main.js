@@ -6,6 +6,9 @@ const express = require("express"),
   errorController = require("./controllers/errorController"),
   layouts = require("express-ejs-layouts");
 
+const Contact =require("./models/Contact")
+const Forum = require("./models/Forum")
+
 const mongoose = require("mongoose");
 mongoose.connect(
    'mongodb://localhost/classSearch',
@@ -71,9 +74,6 @@ app.get("/contact", homeController.showSignUp);
 app.get("/forum", homeController.showForum);
 
 
-const Contact =require("./models/Contact")
-const forum = require("./models/forum")
-
 app.get("/showContacts",
    async (req,res) => {
      try {
@@ -102,30 +102,30 @@ app.post('/contact',
     }
   })
 
-app.get("/forum",
-   async (req,res) => {
-     try {
-       res.locals.forum = await forum.find({})
-       //res.json(res.locals.contacts)
-       res.render('forum')
-     }
-     catch(theError){
-       console.log("Error:")
-       res.send("There was an error in forum!")
+ app.get("/showForum",
+    async (req,res) => {
+      try {
+        res.locals.forum = await Forum.find({})
+        //res.json(res.locals.contacts)
+        res.render('forum')
+      }
+      catch(theError){
+        console.log("Error:")
+        res.send("There was an error in /showContacts!")
 
-     }
-   });
+      }
+    });
 
-app.post('/createPost',
+app.post('/showForum',
   async (req,res) => {
     try {
       let name = req.body.name
       let state = req.body.state
       let title = req.body.title
       let body = req.body.body
-      let newPost = new forum({name:name, state:state, title:title, body:body})
+      let newPost = new Forum({name:name, state:state, title:title, body:body})
       await newPost.save()
-      res.redirect('/forum')
+      res.redirect('/showForum')
     }
     catch(e) {
       res.send("error in createPost")

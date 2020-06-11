@@ -1,15 +1,17 @@
-
-
-
-
-
-
 <div class="container">
   <a href="/createPost">
     <span class="button">Create post</span>
   </a>
   <div class="col-sm-6">
-
+      <ol>
+        <% forum.forEach(forum => {%>
+          <%= forum.name %>
+          <%= forum.state %>
+          <%= forum.title %>
+          <%= forum.body %>
+          <br>
+        <% }) %>
+      </ol>
   </div>
   <div class="col-sm-6">
   </div>
