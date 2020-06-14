@@ -71,6 +71,10 @@ app.get("/mass", (req, res) => {
   res.render("mass");
 });
 
+app.get("/cali", (req, res) => {
+  res.render("cali");
+});
+
 app.get("/contact", homeController.showSignUp);
 app.get("/forum", homeController.showForum);
 
