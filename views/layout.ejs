@@ -48,7 +48,19 @@
 						<a class="dropdown-item" href="/joseph">Joseph</a>
 						<a class="dropdown-item" href="/kayla">Kayla</a>
 				  </div>
+
 				</div>
+
+				<% if (!loggedIn) {%>
+				<a href="/login">
+					<span class="button">Login</span>
+				</a>
+				<% } else  { %>
+					<%= user.googleemail %>
+				<a href="/logout">
+					<span class="button">Logout</span>
+				</a>
+				<% } %>
 
 				<!-- <div class="nav-align dropdown d-inline-block">
 				  <a href="/about" class="button dropdown-toggle" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

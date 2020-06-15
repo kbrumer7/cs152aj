@@ -5,6 +5,10 @@
   <div class="col-sm-6">
     <h4>Tell us about Coronavirus in your state!</h4>
     <p>If you have information on restaurants, parks, or anything else, let us know:</p>
+
+    <% if (loggedIn) { %>
+
+
     <form action="/showForum" method="post">
       <label for="name">Name</label>
       <br>
@@ -29,5 +33,8 @@
       <input class="button" type="submit" value="submit">
     </form>
     <p>Thank you!!</p>
+    <% } else { %>
+    <p>Sorry, you have to login</p>
+    <% } %>
   </div>
 </div>
