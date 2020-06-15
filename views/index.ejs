@@ -1,10 +1,50 @@
 <div class="container">
   <div class="col-sm-6">
-    <a href="/mass"><img src="/images/mass.png" class = "mass" alt="" /></a>
-  </div>
-  <div class="col-sm-6">
     <h1>Welcome!</h1>
     <p> Click on the map to learn more about COVID-19 in that area.</p>
     <p> <a href="/contact.html">Contact us</a> if you have any questions!</p>
+  </div>
+  <div class="col-md-12">
+             <p>
+            	<form action="/states" method="GET" class="form-inline">
+            		<div class="form-group">
+            			<input type="text" name="search" placeholder="State search..." class="form-control">
+            			<input type="submit" value="Search" class="btn btn-default">
+            		</div>
+            	</form>
+            </p>
+         </div>
+  <div class="col-md-3 col-sm-6">
+    <div class="thumbnail">
+      <img src="/images/mass.png">
+      <div class="caption">
+        <h4>Massachusetts</h4>
+      </div>
+      <p>
+        <a href="/mass" class="btn btn-primary">More Info</a>
+      </p>
+    </div>
+  </div>
+  <div class="col-md-3 col-sm-6">
+    <div class="thumbnail">
+      <img src="/images/newYork.png">
+      <div class="caption">
+        <h4>New York</h4>
+      </div>
+      <p>
+        <a href="/ny" class="btn btn-primary">More Info</a>
+      </p>
+    </div>
+  </div>
+  <div class="col-md-3 col-sm-6">
+    <div class="thumbnail">
+      <img src="/images/Cali.png">
+      <div class="caption">
+        <h4>California</h4>
+      </div>
+      <p>
+        <a href="/cali" class="btn btn-primary">More Info</a>
+      </p>
+    </div>
   </div>
 </div>
