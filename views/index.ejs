@@ -4,17 +4,26 @@
     <p> Click on the map to learn more about COVID-19 in that area.</p>
     <p> <a href="/contact.html">Contact us</a> if you have any questions!</p>
   </div>
-  <div class="col-md-12">
-             <p>
-            	<form action="/states" method="GET" class="form-inline">
-            		<div class="form-group">
-            			<input type="text" name="search" placeholder="State search..." class="form-control">
-            			<input type="submit" value="Search" class="btn btn-default">
-            		</div>
-            	</form>
-            </p>
-         </div>
-  <div class="col-md-3 col-sm-6">
+  <div class="row align-items-end">
+    <div class="col-md-12">
+        <p>
+          <form action="/states" method="GET" class="form-inline">
+            <div class="form-group">
+            	<input type="text" name="search" placeholder="State search..." class="form-control">
+            	<input type="submit" value="Search" class="btn btn-default">
+            </div>
+          </form>
+        </p>
+    </div>
+  </div>
+  <div id="map" style="width: 850px; height: 700px;"></div>
+  <%- contentFor('head') %>
+<script type="text/javascript" src= "/js/covidMap.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.0.0/raphael-min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-color/2.1.2/jquery.color.min.js"></script>
+<script src="https://cdn.rawgit.com/NewSignature/us-map/0677afad/jquery.usmap.js"></script>
+  <!-- <div class="col-md-3 col-sm-6">
     <div class="thumbnail">
       <img src="/images/mass.png">
       <div class="caption">
@@ -46,5 +55,5 @@
         <a href="/cali" class="btn btn-primary">More Info</a>
       </p>
     </div>
-  </div>
+  </div> -->
 </div>
