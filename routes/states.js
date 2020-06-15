@@ -12,7 +12,7 @@ router.get("/", function(req, res){
                console.log(err);
            } else {
               if(allState.length < 1) {
-                  noMatch = "No campgrounds match that query, please try again.";
+                  noMatch = "No State match that query, please try again.";
               }
               res.render("views/index");
            }
