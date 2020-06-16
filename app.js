@@ -31,11 +31,16 @@ app.use(
   })
 );
 
+
+
 const isLoggedIn = authRouter.isLoggedIn
 
 app.use(express.json());
 app.use(layouts);
 app.use(express.static("public"));
+
+const favsRouter = require('./routes/favs');
+app.use('/favs', favsRouter);
 
 app.get("/", (req, res) => {
   res.render("index");

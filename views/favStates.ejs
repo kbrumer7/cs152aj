@@ -1,0 +1,16 @@
+  <div class="jumbotron">
+    <h1> Favorite States for <%= user.googlename %> </h1>
+
+      <% items.forEach(item => { %>
+           <a href="/favs/remove/<%=item._id %>">X</a>
+           ::
+           <%= item.state %>
+          <br>
+      <% }) %>
+
+      <form method="post" action="/favs">
+          new state: <input type="text" name="state"><br>
+          <input type="submit" value="store">
+      </form>
+
+  </div>
