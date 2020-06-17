@@ -46,6 +46,10 @@ app.get("/", (req, res) => {
   res.render("index");
 });
 
+app.get("/favs", (req, res) => {
+  res.render("favStates")
+})
+
 app.get("/forum", (req, res) => {
   res.render("forum");
 });
@@ -78,12 +82,12 @@ app.get("/belle", (req, res) => {
   res.render("belle");
 });
 
-app.get("/mass", (req, res) => {
-  res.render("mass");
+app.get("/ma", (req, res) => {
+  res.render("ma");
 });
 
-app.get("/cali", (req, res) => {
-  res.render("cali");
+app.get("/ca", (req, res) => {
+  res.render("ca");
 });
 
 app.get("/contact", homeController.showSignUp);

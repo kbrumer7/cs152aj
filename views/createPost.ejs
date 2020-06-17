@@ -7,19 +7,31 @@
     <h4>Tell us about Coronavirus in your state!</h4>
     <p>If you have information on restaurants, parks, or anything else, let us know:</p>
     <form action="/showForum" method="post">
-      <label for="state">State</label>
+      <!-- <label for="state">State</label>
       <br>
-      <input type="text" name="state" value="">
-      <br>
-      <label for="title">Title</label>
-      <br>
-      <input type="text" name="title" value="">
-      <br>
-      <label for="body">Body</label>
-      <br>
-      <textarea name="body" rows="5" cols="40" value=""></textarea>
-      <br>
-      <input class="button" type="submit" value="submit">
+      <input type="text" name="state" value=""> -->
+      <div class="form-group col-md-4">
+        <label for="inputState">State</label>
+        <select id="inputState" name="state" class="form-control">
+          <option selected>Choose...</option>
+          <option>MA</option>
+          <option>NY</option>
+          <option>CA</option>
+          <option>WA</option>
+          <option>OR</option>
+          <option>OH</option>
+        </select>
+        <br>
+        <label for="title">Title</label>
+        <br>
+        <input type="text" name="title" value="">
+        <br>
+        <label for="body">Body</label>
+        <br>
+        <textarea name="body" rows="5" cols="40" value=""></textarea>
+        <br>
+        <input class="button" type="submit" value="submit">
+      </div>
     </form>
     <p>Thank you!!</p>
     <% } else { %>

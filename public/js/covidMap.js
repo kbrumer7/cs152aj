@@ -3,12 +3,14 @@ $(document).ready(function() {
   $('#map').usmap({
       stateStyles: {fill: '#fff'},
         'click': function(event, data) {
-          window.location.href='mass';
+          window.location.href='ma';
          //$('#clicked-state').text('You clicked:'+data.name );
-    }, 
+    },
     stateSpecificStyles: {
       'MA': {fill: 'orange'},
-      'OR': {fill: 'orange'}
+      'OR': {fill: 'orange'},
+      'CA': {fill: 'orange'},
+      'NY': {fill: 'orange'}
       //'FL': {fill: 'light blue'}
     }
   });
@@ -17,9 +19,11 @@ $(document).ready(function() {
   $('#map').usmap({
     stateSpecificStyles: {
       'MA': {fill: 'orange'},
-      'OR': {fill: 'orange'}
+      'OR': {fill: 'orange'},
+      'CA': {fill: 'orange'},
+      'NY': {fill: 'orange'}
       //'FL': {fill: 'light blue'}
-    } 
+    }
   });
 
   $('#on-ma').click(function(event){
@@ -39,6 +43,6 @@ $(document).ready(function() {
   //   }
   // });
 
-  
+
 
   });

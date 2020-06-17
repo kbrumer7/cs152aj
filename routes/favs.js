@@ -16,7 +16,7 @@ isLoggedIn = (req,res,next) => {
   if (res.locals.loggedIn) {
     next()
   } else {
-    res.redirect('/login')
+    res.redirect('/auth/google')
   }
 }
 
@@ -29,7 +29,7 @@ router.post('/',
         userId: req.user._id
         })
       await fav.save();
-      res.redirect('/')
+      res.redirect('/favs')
 });
 
 router.get('/remove/:itemId',
@@ -37,7 +37,7 @@ router.get('/remove/:itemId',
   async (req, res, next) => {
       console.log("inside /todo/remove/:itemId")
       await FavStates.remove({_id:req.params.itemId});
-      res.redirect('/toDo')
+      res.redirect('/favs')
 });
 
 

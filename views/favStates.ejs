@@ -1,15 +1,26 @@
   <div class="jumbotron">
-    <h1> Favorite States for <%= user.googlename %> </h1>
+    <h1> Favorite States for <%= user.googlename %> (<%= user.googleemail %>) </h1>
 
       <% items.forEach(item => { %>
            <a href="/favs/remove/<%=item._id %>">X</a>
            ::
-           <%= item.state %>
+           <a href="<%= item.state %>"><%= item.state %></a>
           <br>
       <% }) %>
 
       <form method="post" action="/favs">
-          new state: <input type="text" name="state"><br>
+          new state:
+          <div class="form-group col-md-4">
+            <select id="inputState" name="state" class="form-control">
+              <option selected>Choose...</option>
+              <option>MA</option>
+              <option>NY</option>
+              <option>CA</option>
+              <option>WA</option>
+              <option>OR</option>
+              <option>OH</option>
+            </select>
+          </div>
           <input type="submit" value="store">
       </form>
 
