@@ -47,19 +47,42 @@ a {
 }
 
 .button {
-  background-color: gray;
+  background-color: rgb(28, 53, 73);
   padding: 0.3vw 3vw;
   border-radius: 2px;
   cursor: pointer;
   display: inline-block;
-  color: #fff;
+  color: rgb(248, 244, 244);
 }
 
 .button:hover {
-  background-color: #ffb99f;
+  background-color: rgb(85, 156, 173);
   color: white;
 }
 
 .jumbotron {
   background-color: #ffb99f;
 }
+
+/* map styling*/
+
+.mapheader{
+  font-size: 15px;
+  letter-spacing: 2px;
+  text-align: center;
+  padding: 15px;
+}
+.a{
+  text-emphasis: underline;
+
+}
+
+
+/*
+Colors for map reference
+Phase 1: red
+Phase 2: orange
+Phase 3: blue
+Phase 4: green
+Highlight color: for now purple
+*/
