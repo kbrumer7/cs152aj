@@ -1,20 +1,19 @@
 <div class="container">
-  <div class="col-sm-6">
-    <h1>Welcome!</h1>
-    <p> Click on the map to learn more about COVID-19 in that area.</p>
-    <p> <a href="/contact.html">Contact us</a> if you have any questions!</p>
+    <div class= "mapheader"> Click on the map to learn more about COVID-19 in that area. <br /> <a href="/contact.html"><u>Contact us</u></a></div>
+  <div class="row align-items-end">
+    <div class="col-md-12">
+        <p>
+          <form action="/states" method="GET" class="form-inline">
+            <div class="form-group" style= "padding: 15px;">
+            	<input type="text" name="search" placeholder="State search..." class="form-control">
+            	<input type="submit" value="Search" class="btn btn-default">
+            </div>
+          </form>
+        </p>
+    </div>
   </div>
-  <div class="col-md-12">
-             <p>
-            	<form action="/states" method="GET" class="form-inline">
-            		<div class="form-group">
-            			<input type="text" name="search" placeholder="State search..." class="form-control">
-            			<input type="submit" value="Search" class="btn btn-default">
-            		</div>
-            	</form>
-            </p>
-         </div>
-  <div class="col-md-3 col-sm-6">
+
+  <!-- <div class="col-md-3 col-sm-6">
     <div class="thumbnail">
       <img src="/images/mass.png">
       <div class="caption">
@@ -46,5 +45,6 @@
         <a href="/cali" class="btn btn-primary">More Info</a>
       </p>
     </div>
-  </div>
+  </div> -->
 </div>
+<div id="map" style="width: 950px; height: 800px; margin-left: auto; margin-right: auto;"></div>

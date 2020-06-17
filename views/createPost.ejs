@@ -1,22 +1,15 @@
 <div class="container">
   <div class="col-sm-6">
-    <img src="images/graph.png" alt="">
+    <img src="images/covidpicture.png" alt="">
   </div>
   <div class="col-sm-6">
+    <% if (loggedIn) { %>
     <h4>Tell us about Coronavirus in your state!</h4>
     <p>If you have information on restaurants, parks, or anything else, let us know:</p>
     <form action="/showForum" method="post">
-      <label for="name">Name</label>
-      <br>
-      <input type="text" name="name" value="">
-      <br>
       <label for="state">State</label>
       <br>
       <input type="text" name="state" value="">
-      <br>
-      <label for="date">Date</label>
-      <br>
-      <input type="date" name="date" value="">
       <br>
       <label for="title">Title</label>
       <br>
@@ -29,5 +22,11 @@
       <input class="button" type="submit" value="submit">
     </form>
     <p>Thank you!!</p>
+    <% } else { %>
+    <h5>Sorry, you must be logged in to create a post in the forum.</h5>
+    <a href="/auth/google">
+      <span class="button">Login</span>
+    </a>
+    <% } %>
   </div>
 </div>
