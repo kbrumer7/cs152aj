@@ -1,27 +1,37 @@
-  <div class="jumbotron">
-    <h1> Favorite States for <%= user.googlename %> (<%= user.googleemail %>) </h1>
+<div class="jumbotron text-center">
+  <h2> <%= user.googlename %> (<%= user.googleemail %>) </h2>
+</div>
 
-      <% items.forEach(item => { %>
-           <a href="/favs/remove/<%=item._id %>">X</a>
-           ::
-           <a href="<%= item.state %>"><%= item.state %></a>
-          <br>
-      <% }) %>
-
-      <form method="post" action="/favs">
-          new state:
-          <div class="form-group col-md-4">
-            <select id="inputState" name="state" class="form-control">
-              <option selected>Choose...</option>
-              <option>MA</option>
-              <option>NY</option>
-              <option>CA</option>
-              <option>WA</option>
-              <option>OR</option>
-              <option>OH</option>
-            </select>
-          </div>
+<div class="container">
+  <div class="col-sm-6">
+    <h4>Your Favorite States:</h4>
+    <% items.forEach(item => { %>
+         <a href="/favs/remove/<%=item._id %>">X</a>
+         ::
+         <a href="<%= item.state %>"><%= item.state %></a>
+        <br>
+    <% }) %>
+    <br>
+    <form method="post" action="/favs">
+        <div class="form-group col-md-4">
+          <strong>New state:</strong>
+          <select id="inputState" name="state" class="form-control">
+            <option selected>Choose...</option>
+            <option>MA</option>
+            <option>NY</option>
+            <option>CA</option>
+            <option>WA</option>
+            <option>OR</option>
+            <option>OH</option>
+          </select>
           <input type="submit" value="store">
-      </form>
+        </div>
+
+    </form>
+  </div>
+
+  <div class="col-sm-6">
+    <h4>Your Forum Posts:</h4>
 
   </div>
+</div>
