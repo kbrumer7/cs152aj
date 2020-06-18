@@ -46,9 +46,7 @@ app.get("/", (req, res) => {
   res.render("index");
 });
 
-app.get("/favs", (req, res) => {
-  res.render("favStates")
-})
+
 
 app.get("/forum", (req, res) => {
   res.render("forum");
@@ -143,8 +141,9 @@ app.post('/showForum',
       let state = req.body.state
       let title = req.body.title
       let body = req.body.body
+      let userId = req.user._id
       let date = new Date()
-      let newPost = new Forum({name:name, state:state, title:title, body:body, date:date})
+      let newPost = new Forum({name:name, state:state, title:title, body:body, date:date, userId:userId})
       await newPost.save()
       res.redirect('/showForum')
     }

@@ -32,6 +32,17 @@
 
   <div class="col-sm-6">
     <h4>Your Forum Posts:</h4>
-
+    <% forum.forEach(forum => {%>
+      <div class="col-md-4">
+        <div class="card border-dark mb-4">
+          <div class="card-body">
+            <h3 class="card-title"><%= forum.title %> in <%= forum.state %></h3>
+            <h5 class="card-subtitle mb-2 text-muted">By <%= forum.name %> on <%= forum.date.toDateString() %></h5>
+            <p class="card-text"><%= forum.body %></p>
+            <a class="card-link" href="<%= forum.state %>">Learn more about this state &raquo;</a>
+          </div>
+        </div>
+      </div>
+    <% }) %>
   </div>
 </div>
