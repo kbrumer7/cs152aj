@@ -22,29 +22,25 @@
         <tbody>
           <tr>
             <td>Positive Tests</td>
-            <td>105,603</td>
+            <td><%=covidData['positive'].toLocaleString()%></td>
           </tr>
           <tr>
             <td>Negative Tests</td>
-            <td>607,107</td>
+            <td><%=covidData['negative'].toLocaleString()%></td>
           </tr>
           <tr>
             <td>Total Tests</td>
-            <td>712,710</td>
+            <td><%=covidData['total'].toLocaleString()%></td>
           </tr>
           <tr>
             <td>Total Deaths</td>
-            <td>7,624</td>
-          </tr>
-          <tr>
-            <td>Active cases</td>
-            <td>10,802</td>
+            <td><%=covidData['death'].toLocaleString()%></td>
           </tr>
         </tbody>
       </table>
       <h3 align = "center">The Latest</h3>
       <ul>
-        <li>Governor Baker announced Massuchusetts is moving to Phase 2 on Monday - <a href="https://www.mass.gov/covid19-updates">click here</a> to see the full press conference</li>
+        <li>Governor Baker has announced Massuchusetts is moving to Phase 2 - <a href="https://www.mass.gov/covid19-updates">click here</a> to see the full press conference</li>
       </ul>
     </div>
   </div>

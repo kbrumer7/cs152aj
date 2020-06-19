@@ -21,19 +21,19 @@
         <tbody>
           <tr>
             <td>Positive Tests</td>
-            <td>148,855</td>
+            <td><%=covidData['positive'].toLocaleString()%></td>
           </tr>
           <tr>
             <td>Negative Tests</td>
-            <td>2,653,141</td>
+            <td><%=covidData['negative'].toLocaleString()%></td>
           </tr>
           <tr>
             <td>Total Tests</td>
-            <td>2,801,996</td>
+            <td><%=covidData['total'].toLocaleString()%></td>
           </tr>
           <tr>
             <td>Total Deaths</td>
-            <td>5,063</td>
+            <td><%=covidData['death'].toLocaleString()%></td>
           </tr>
         </tbody>
       </table>

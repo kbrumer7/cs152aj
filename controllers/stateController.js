@@ -24,3 +24,19 @@ exports.showStateWithData = async (req, res, next) =>
       next(e)
     }
 };
+
+exports.showUSWithData = async (req, res, next) =>
+{
+  try
+  {
+      let method = req.params.method
+      let result = await axios.get(`https://covidtracking.com/api/v1/us/current.json`)
+      let covidData = result['data'][0]
+      res.render("index",{covidData:covidData})
+      // res.json(covidData)
+    }
+    catch(e)
+    {
+      next(e)
+    }
+};

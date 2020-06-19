@@ -42,9 +42,7 @@ app.use(express.static("public"));
 const favsRouter = require('./routes/favs');
 app.use('/favs', favsRouter);
 
-app.get("/", (req, res) => {
-  res.render("index");
-});
+app.get("/", stateController.showUSWithData);
 
 app.get("/favs", (req, res) => {
   res.render("favStates")
@@ -82,13 +80,9 @@ app.get("/belle", (req, res) => {
   res.render("belle");
 });
 
-app.get("/ma", (req, res) => {
-  res.render("ma");
-});
+app.get("/ma", stateController.showStateWithData);
 
-app.get("/ca", (req, res) => {
-  res.render("ca");
-});
+app.get("/ca", stateController.showStateWithData);
 
 app.get("/contact", homeController.showSignUp);
 app.get("/forum", homeController.showForum);
