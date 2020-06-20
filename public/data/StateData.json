@@ -1,0 +1,308 @@
+{
+  "_default": {
+    "activePage":false,
+    "name":null,
+    "governor":{
+      "name": null,
+      "photo": null
+    },
+    "statusbar":{
+      "type":"image",
+      "url":""
+    },
+    "extraImg": null,
+    "phaseMsg": "is in Phase ????",
+    "updateMsg": "",
+    "moreInfoURL":"",
+    "pageLastUpdated":"YEAR-MONTH-DATE",
+    "theLatest":[
+      {
+        "title":"News-1",
+        "link":""
+      },
+      {
+        "title":"News-2",
+        "link":""
+      }
+    ]
+  },
+
+  "al": {
+    "activePage":false,
+    "name":"Alabama"
+  },
+
+  "ak": {
+    "activePage":false,
+    "name":"Alaska"
+  },
+
+  "az":{
+    "activePage":false,
+    "name":"Arizona"
+  },
+
+  "ar":{
+    "activePage":false,
+    "name":"Arkansas"
+  },
+
+  "ca":{
+    "activePage":false,
+    "name":"California"
+  },
+
+  "co":{
+    "activePage":false,
+    "name":"Colorado"
+  },
+
+  "ct":{
+    "activePage":true,
+    "name":"Connecticut",
+
+    "governor":{
+      "name": "Ned Lamont",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Governor_Ned_Lamont_of_Connecticut%2C_official_portrait.jpg"
+    },
+
+    "statusbar":{
+      "type":"image",
+      "url":"/images/statusbar/phase2.svg"
+    },
+
+    "extraImg": null,
+    "phaseMsg": "is in Phase 2",
+    "updateMsg": "Connecticut is in Phase 2 since June 17",
+    "moreInfoURL":"https://portal.ct.gov/Coronavirus",
+    "pageLastUpdated":"2020-06-20",
+
+    "theLatest":[
+      {
+        "title":"Latest Guidance (6/17/2020)",
+        "link":"https://portal.ct.gov/Coronavirus/Covid-19-Knowledge-Base/Latest-Guidance"
+      }
+    ]
+  },
+
+  "de":{
+    "activePage":false,
+    "name":"Delaware"
+  },
+
+  "fl":{
+    "activePage":false,
+    "name":"Florida"
+  },
+
+  "ga":{
+    "activePage":false,
+    "name":"Georgia"
+  },
+
+  "hi":{
+    "activePage":false,
+    "name":"Hawaii"
+  },
+
+  "id":{
+    "activePage":false,
+    "name":"Idaho"
+  },
+
+  "il":{
+    "activePage":false,
+    "name":"Illinois"
+  },
+
+  "in":{
+    "activePage":false,
+    "name":"Indiana"
+  },
+
+  "ia":{
+    "activePage":false,
+    "name":"Iowa"
+  },
+
+  "ks":{
+    "activePage":false,
+    "name":"Kansas"
+  },
+
+  "ky": {
+    "activePage":false,
+    "name":"Kentucky"
+  },
+
+  "la": {
+    "activePage":false,
+    "name":"Louisiana"
+  },
+
+  "me":{
+    "activePage":false,
+    "name":"Maine"
+  },
+
+  "md":{
+    "activePage":false,
+    "name":"Maryland"
+  },
+
+  "ma":{
+    "activePage":false,
+    "name":"Massachusetts"
+  },
+
+  "mi":{
+    "activePage":false,
+    "name":"Michigan"
+  },
+
+  "mn":{
+    "activePage":false,
+    "name":"Minnesota"
+  },
+
+  "ms":{
+    "activePage":false,
+    "name":"Mississippi"
+  },
+
+  "mo":{
+    "activePage":false,
+    "name":"Missouri"
+  },
+
+  "mt":{
+    "activePage":false,
+    "name":"Montana"
+  },
+
+  "ne":{
+    "activePage":false,
+    "name":"Nebraska"
+  },
+
+  "nv":{
+    "activePage":false,
+    "name":"Nevada"
+  },
+
+  "nh":{
+    "activePage":false,
+    "name":"New Hampshire"
+  },
+
+  "nj":{
+    "activePage":false,
+    "name":"New Jersey"
+  },
+
+  "nm":{
+    "activePage":false,
+    "name":"New Mexico"
+  },
+
+  "ny":{
+    "activePage":false,
+    "name":"New York"
+  },
+
+  "nc":{
+    "activePage":false,
+    "name":"North Carolina"
+  },
+
+  "nd":{
+    "activePage":false,
+    "name":"North Dakota"
+  },
+
+  "oh":{
+    "activePage":false,
+    "name":"Ohio"
+  },
+
+  "ok":{
+    "activePage":false,
+    "name":"Oklahoma"
+  },
+
+  "or":{
+    "activePage":false,
+    "name":"Oregon"
+  },
+
+  "pa":{
+    "activePage":false,
+    "name":"Pennsylvania"
+  },
+
+  "ri":{
+    "activePage":false,
+    "name":"Rhode Island"
+  },
+
+  "sc":{
+    "activePage":false,
+    "name":"South Carolina"
+  },
+
+  "sd":{
+    "activePage":false,
+    "name":"South Dakota"
+  },
+
+  "tn":{
+    "activePage":false,
+    "name":"Tennessee"
+  },
+
+  "tx":{
+    "activePage":false,
+    "name":"Texas"
+  },
+
+  "ut":{
+    "activePage":false,
+    "name":"Utah"
+  },
+
+  "vt":{
+    "activePage":false,
+    "name":"Vermont"
+  },
+
+  "va":{
+    "activePage":false,
+    "name":"Virginia"
+  },
+
+  "wa":{
+    "activePage":false,
+    "name":"Washington"
+  },
+
+  "wv":{
+    "activePage":false,
+    "name":"West Virginia"
+  },
+
+  "wi":{
+    "activePage":false,
+    "name":"Wisconsin"
+  },
+
+  "wy":{
+    "activePage":false,
+    "name":"Wyoming"
+  },
+
+  "dc":{
+    "activePage":false,
+    "name":"Washington D.C."
+  }
+
+}

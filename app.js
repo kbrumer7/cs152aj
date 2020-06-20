@@ -84,6 +84,9 @@ app.get("/ma", stateController.showStateWithData);
 
 app.get("/ca", stateController.showStateWithData);
 
+app.get("/ny", stateController.showStateWithData);
+app.get("/ct", stateController.showGenericStateWithData);
+
 app.get("/contact", homeController.showSignUp);
 app.get("/forum", homeController.showForum);
 
@@ -149,9 +152,6 @@ app.post('/showForum',
 
 
 
-/*Load State Pages with Data*/
-//Maybe someday we can automate parts of this
-app.get("/ny", stateController.showStateWithData);
 
 app.use(errorController.pageNotFoundError);
 app.use(errorController.internalServerError);

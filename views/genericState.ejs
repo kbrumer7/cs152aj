@@ -1,0 +1,88 @@
+<!--
+  This page must be passed in with 2 objects in order to function properly,
+  1. covidData
+  2. stateData
+-->
+
+<div class="jumbotron text-center">
+  <h1><%=stateData['name']%> <small><%=stateData['phaseMsg']%></small></h1>
+  <p><a href=<%=stateData['moreInfoURL']%> target="_blank" rel="nofollow">Click here</a> for the state's latest response to COVID-19</p>
+</div>
+
+<div class = "container pt-3">
+  <div align = "center">
+    <h3><%=stateData['updateMsg']%></h3>
+  </div>
+</div>
+
+<div class = "container">
+  <div align = "center">
+    <% if (stateData["statusbar"])//if the status bar is NOT null
+    {
+      if (stateData["statusbar"]["type"]=="image"){%>
+        <img src="<%= stateData["statusbar"]["url"]%>" class="img-fluid">
+      <%}%>
+  <%}%>
+  </div>
+</div>
+
+<div class="container pt-3">
+  <div class="row">
+    <div class="col-sm-6">
+      <h3><%=stateData["governor"]["name"]%></h3>
+      <img src=<%=stateData["governor"]["photo"]%> class="rounded" alt="" class="img-fluid">
+    </div>
+    <div class="col-sm-6">
+      <% if (!stateData["extraImg"]) { %>
+        <img src=<%=stateData["extraImg"]%> class="rounded" alt="" class="img-fluid">
+      <% } %>
+      <h3 align = "center">Statistics</h3>
+      <table class="table table-bordered" align = "center">
+        <tbody>
+          <tr>
+            <td>Positive Tests</td>
+            <td><%=covidData['positive'].toLocaleString()%></td>
+          </tr>
+          <tr>
+            <td>Negative Tests</td>
+            <td><%=covidData['negative'].toLocaleString()%></td>
+          </tr>
+          <tr>
+            <td>Total Tests</td>
+            <td><%=covidData['total'].toLocaleString()%></td>
+          </tr>
+          <tr>
+            <td>Total Deaths</td>
+            <td><%=covidData['death'].toLocaleString()%></td>
+          </tr>
+        </tbody>
+        <b>data last updated:
+          <% let str = covidData['date'].toString() %>
+          <%= str.substring(0,4)+"-"+str.substring(4,6)+"-"+str.substring(6,8) %>
+        </b>
+        <b>
+          <br>
+          <%= covidData['state']%> data from <a href=https://covidtracking.com>covidtracking.com</a>
+        </b>
+      </table>
+      <h3 align = "center">The Latest</h3>
+      <ul>
+        <%
+          const l = stateData["theLatest"].length
+          for (let i=0; i<l; i++){%>
+          <li>
+            <a href="<%= stateData["theLatest"][i]["link"] %>"><u><%= stateData["theLatest"][i]["title"]%></u></a>
+          </li>
+        <% }%>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="row justify-content-center">
+   <div class="col-4" style="background-color:rgb(255, 255, 50);  text-align: center;">
+    <b style="color:black;" >
+      page last updated <%= stateData["pageLastUpdated"]%>
+    </b>
+  </div>
+</div>
