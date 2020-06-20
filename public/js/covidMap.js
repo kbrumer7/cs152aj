@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  /** FIRST YOU HAVE TO INITIALIZE THE MAP 
+  /** FIRST YOU HAVE TO INITIALIZE THE MAP
    * window.location.href= description;
    * **/
   $('#map').usmap({
@@ -27,7 +27,7 @@ $(document).ready(function() {
                 description = 'colorado';
                 break;
               case 'CT':
-                description = 'connecticut';
+                description = 'ct';
                 break;
               case 'DE':
                 description = 'delaware';
@@ -169,7 +169,8 @@ $(document).ready(function() {
       'MA': {fill: 'orange'},
       'OR': {fill: 'red'},
       'CA': {fill: 'orange'},
-      'NY': {fill: 'orange'}
+      'NY': {fill: 'orange'},
+      'CT': {fill: 'orange'}
       //'FL': {fill: 'light blue'}
     }
   });
@@ -210,11 +211,11 @@ $(document).ready(function() {
   /*
      <script>
     $(document).ready(function () {
-    
+
     $('#clicked-state').load('http://electrix.com/usrep/' + description + '.html');
      $("body").css("background-color", "#333");
-  } 
+  }
     });
-  });  
+  });
 </script>
   */
