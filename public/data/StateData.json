@@ -206,8 +206,22 @@
   },
 
   "ny":{
-    "activePage":false,
-    "name":"New York"
+    "activePage":true,
+    "name":"New York",
+
+    "governor":{
+      "name": "Andrew Cuomo",
+      "photo": "https://www.ny.gov/sites/ny.gov/files/thumbnails/image/CuomoGovSectionPhoto.jpg"
+    },
+
+    "statusbar": null,
+    "extraImg": "https://forward.ny.gov/sites/g/files/oee1166/files/media/2020/06/nys_regionslabels_nyforwardreopeningphase3_westernny_capregion.png",
+    "phaseMsg": "Phase 1, 2, or 3",
+    "updateMsg": "New York is in Phase 1 in New York City, Phase 2 in Mid-Hudson and Long Island, and Phase 3 everywhere else",
+    "moreInfoURL":"https://forward.ny.gov/",
+    "pageLastUpdated":"2020-06-21",
+
+    "theLatest":[]
   },
 
   "nc":{

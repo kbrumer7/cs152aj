@@ -84,7 +84,7 @@ app.get("/ma", stateController.showStateWithData);
 
 app.get("/ca", stateController.showStateWithData);
 
-app.get("/ny", stateController.showStateWithData);
+app.get("/ny", stateController.showGenericStateWithData);
 app.get("/ct", stateController.showGenericStateWithData);
 
 app.get("/contact", homeController.showSignUp);
