@@ -71,7 +71,11 @@
           const l = stateData["theLatest"].length
           for (let i=0; i<l; i++){%>
           <li>
+            <% if (stateData["theLatest"][i]["type"] == "headline"){ %>
             <a href="<%= stateData["theLatest"][i]["link"] %>"><u><%= stateData["theLatest"][i]["title"]%></u></a>
+            <% } else if (stateData["theLatest"][i]["type"] == "rawHTML"){ %>
+              <%- stateData["theLatest"][i]["body"] %>
+            <% } %>
           </li>
         <% }%>
       </ul>

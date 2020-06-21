@@ -17,12 +17,13 @@
     "pageLastUpdated":"YEAR-MONTH-DATE",
     "theLatest":[
       {
+        "type":"headline",
         "title":"News-1",
         "link":""
       },
       {
-        "title":"News-2",
-        "link":""
+        "type":"rawHTML",
+        "body":"EXAMPLE: This stuff is going on. Go to <a href='/'>[this link]</a> for more details"
       }
     ]
   },
@@ -79,8 +80,13 @@
 
     "theLatest":[
       {
+        "type":"headline",
         "title":"Latest Guidance (6/17/2020)",
         "link":"https://portal.ct.gov/Coronavirus/Covid-19-Knowledge-Base/Latest-Guidance"
+      },
+      {
+        "type":"rawHTML",
+        "body":"Rules for reopening by sector: <a href='https://portal.ct.gov/DECD/Content/Coronavirus-Business-Recovery/Sector-Rules-and-Certification-for-Reopen'>[link]</a>."
       }
     ]
   },
