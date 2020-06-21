@@ -33,7 +33,7 @@
       <img src=<%=stateData["governor"]["photo"]%> class="rounded" alt="" class="img-fluid">
     </div>
     <div class="col-sm-6">
-      <% if (!stateData["extraImg"]) { %>
+      <% if (stateData["extraImg"]) { %>
         <img src=<%=stateData["extraImg"]%> class="rounded" alt="" class="img-fluid">
       <% } %>
       <h3 align = "center">Statistics</h3>
