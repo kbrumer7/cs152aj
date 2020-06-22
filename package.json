@@ -4,6 +4,7 @@
   "description": "A site for booking classes for cooking.",
   "main": "main.js",
   "scripts": {
+    "__test": "echo \"Error: no test specified\" && exit 1",
     "start":"node app.js"
   },
   "author": "Jon Wexler",
