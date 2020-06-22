@@ -86,7 +86,8 @@ app.get("/ca", stateController.showStateWithData);
 
 app.get("/ny", stateController.showGenericStateWithData);
 app.get("/ct", stateController.showGenericStateWithData);
-
+app.get("/al", stateController.showGenericStateWithData);
+app.get("/ak", stateController.showGenericStateWithData);
 app.get("/contact", homeController.showSignUp);
 app.get("/forum", homeController.showForum);
 

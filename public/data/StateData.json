@@ -30,12 +30,60 @@
 
   "al": {
     "activePage":false,
-    "name":"Alabama"
+    "name":"Alabama",
+    "governor":{
+      "name": "Kay Ivey",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Portrait-Governor-Kay-Ivey.jpg/330px-Portrait-Governor-Kay-Ivey.jpg"
+    },
+    "statusbar":{
+      "type":"image",
+      "url":"/images/statusbar/phase2.svg"
+    },
+    "extraImg": null,
+    "phaseMsg": "is in Phase 2",
+    "updateMsg": "Stay-at-home order expired on April 30.",
+    "moreInfoURL":"https://www.alabamapublichealth.gov/covid19/",
+    "pageLastUpdated":"2000-6-21",
+    "theLatest":[
+      {
+        "type":"headline",
+        "title":"Latest Guidance (6/21/2020)",
+        "link":"https://www.alabamapublichealth.gov/covid19/assets/cov-sah-businesses.pdf"
+      },
+      {
+        "type":"rawHTML",
+        "body":"Rules for reopening by sector: <a href='https://www.alabamapublichealth.gov/covid19/'>[link]</a>."
+      }
+    ]
   },
 
   "ak": {
     "activePage":false,
-    "name":"Alaska"
+    "name":"Alaska",
+    "governor":{
+      "name": "Mike Dunleavy",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Mike_Dunleavy_official_photo.jpg/330px-Mike_Dunleavy_official_photo.jpg"
+    },
+    "statusbar":{
+      "type":"image",
+      "url":"/images/statusbar/phase2.svg"
+    },
+    "extraImg": null,
+    "phaseMsg": "is in Phase 3",
+    "updateMsg": "Alaska is in Phase 3/4 starting May 22nd",
+    "moreInfoURL":"https://covid19.alaska.gov/reopen/",
+    "pageLastUpdated":"2000-6-21",
+    "theLatest":[
+      {
+        "type":"headline",
+        "title":"Latest Guidance (6/21/2020)",
+        "link":"https://covid19.alaska.gov/wp-content/uploads/2020/05/05192020-Alaskas-Plan-Forward-Final.pdf"
+      },
+      {
+        "type":"rawHTML",
+        "body":"Rules for reopening by sector: <a href='https://covid19.alaska.gov/reopen/'>[link]</a>."
+      }
+    ]
   },
 
   "az":{

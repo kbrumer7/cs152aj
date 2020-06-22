@@ -9,10 +9,10 @@ $(document).ready(function() {
             switch (data.name)
             {
               case 'AL':
-                description = 'alabama';
+                description = 'al';
                 break;
               case 'AK':
-                description = 'alaska';
+                description = 'ak';
                 break;
               case 'AZ':
                 description = 'arizona';
@@ -167,10 +167,12 @@ $(document).ready(function() {
     },
     stateSpecificStyles: {
       'MA': {fill: 'orange'},
-      'OR': {fill: 'red'},
+      'OR': {fill: 'orange'},
       'CA': {fill: 'orange'},
       'NY': {fill: 'orange'},
-      'CT': {fill: 'orange'}
+      'CT': {fill: 'orange'},
+      'AL': {fill: 'orange'},
+      'AK': {fill: 'green'}
       //'FL': {fill: 'light blue'}
     }
   });
