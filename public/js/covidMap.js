@@ -172,7 +172,7 @@ $(document).ready(function() {
       'NY': {fill: 'orange'},
       'CT': {fill: 'orange'},
       'AL': {fill: 'orange'},
-      'AK': {fill: 'green'}
+      'AK': {fill: 'blue'}
       //'FL': {fill: 'light blue'}
     }
   });

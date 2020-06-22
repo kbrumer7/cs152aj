@@ -3,7 +3,6 @@
     <script async src="https://cse.google.com/cse.js?cx=014315194782570216271:uhxbdq5zgck"></script>
     <div class="gcse-search"></div>
   <div class="row align-items-end">
-    <div class = "col-md-5">
       <h3 align="center">Current US statistics</h3>
       <table class="table table-bordered" align = "center">
         <tbody>
@@ -22,6 +21,28 @@
           <tr>
             <td>Total Deaths</td>
             <td><%=covidData['death'].toLocaleString()%></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3 align="center" >Color Indicators of Reopening Phases</h3>
+      <table class="table table-bordered" align = "center">
+        <tbody>
+          <tr>
+            <td>Red</td>
+            <td bgcolor="red">Phase 1</td>
+          </tr>
+          <tr>
+            <td>Orange</td>
+            <td  bgcolor="orange">Phase 2</td>
+          </tr>
+          <tr>
+            <td>Blue</td>
+            <td  bgcolor="blue">Phase 3</td>
+          </tr>
+          <tr>
+            <td>Green</td>
+            <td  bgcolor="green">Phase 4</td>
           </tr>
         </tbody>
       </table>
