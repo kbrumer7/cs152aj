@@ -4,7 +4,8 @@
   "description": "A site for booking classes for cooking.",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
   },
   "author": "Jon Wexler",
   "license": "ISC",
@@ -17,7 +18,7 @@
     "express-ejs-layouts": "^2.5.0",
     "express-session": "^1.17.1",
     "http-status-codes": "^1.4.0",
-    "mongoose": "^5.9.19",
+    "mongoose": "^5.9.20",
     "passport": "^0.4.1",
     "passport-google-oauth": "^2.0.0"
   }
