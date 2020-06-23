@@ -5,7 +5,7 @@ const express = require('express');
 const router = express.Router();
 const FavStates = require('../models/FavStates')
 
-const Forum = require('../models/forum')
+const Forum = require('../models/Forum')
 
 
 /*
