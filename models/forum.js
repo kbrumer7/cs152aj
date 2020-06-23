@@ -12,4 +12,4 @@ const forumSchema = Schema( {
   userId: ObjectId
 });
 
-module.exports = mongoose.model('Forum',forumSchema);
+module.exports = mongoose.model('ForumT3',forumSchema);

@@ -9,4 +9,4 @@ var favStatesSchema = Schema( {
   userId: ObjectId
 } );
 
-module.exports = mongoose.model( 'FavStates', favStatesSchema);
+module.exports = mongoose.model( 'FavStatesT3', favStatesSchema);

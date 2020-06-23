@@ -7,4 +7,4 @@ const stateSchema = Schema( {
   link: String
 });
 
-module.exports = mongoose.model('State',stateSchema);
+module.exports = mongoose.model('StateT3',stateSchema);
