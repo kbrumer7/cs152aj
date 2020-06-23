@@ -1,13 +1,13 @@
 {
-  "name": "confetti_cuisine",
+  "name": "covid tracker",
   "version": "1.0.0",
-  "description": "A site for booking classes for cooking.",
-  "main": "main.js",
+  "description": "COVID-19 Tracker.",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js",
+    "start": "node app.js"
   },
-  "author": "Jon Wexler",
+  "author": "Team 3",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.19.2",
