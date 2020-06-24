@@ -349,8 +349,28 @@
   },
 
   "wa":{
-    "activePage":false,
-    "name":"Washington"
+    "activePage":true,
+    "name":"Washingon",
+
+    "governor":{
+      "name": "Jay Inslee",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Jay_Inslee_official_portrait_2017.jpg/480px-Jay_Inslee_official_portrait_2017.jpg"
+    },
+
+    "statusbar":null,
+
+    "extraImg": null,
+    "phaseMsg": "is in Phase 2",
+    "updateMsg": "Washington is in Phase 2 since like, 2 days ago",
+    "moreInfoURL":"/",
+    "pageLastUpdated":"2020-06-24",
+
+    "theLatest":[
+      {
+        "type":"rawHTML",
+        "body":"This is some news!! <a href='/'>[this link]</a> for more details"
+      }
+    ]
   },
 
   "wv":{

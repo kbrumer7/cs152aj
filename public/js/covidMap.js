@@ -147,7 +147,7 @@ $(document).ready(function() {
                   description = 'virginia';
                   break;
               case 'WA':
-                  description = 'washington';
+                  description = 'wa';
                   break;
               case 'WV':
                   description = 'westvirginia';
@@ -172,6 +172,7 @@ $(document).ready(function() {
       'NY': {fill: 'orange'},
       'CT': {fill: 'orange'},
       'AL': {fill: 'orange'},
+      'WA': {fill: 'orange'},
       'AK': {fill: 'blue'}
       //'FL': {fill: 'light blue'}
     }
