@@ -12,8 +12,8 @@ const Forum = require("./models/Forum")
 
 const mongoose = require("mongoose");
 mongoose.connect(
-   //'mongodb://localhost/classSearch',
-   process.env.MONGODB_URI,
+   'mongodb://localhost/classSearch',
+   //process.env.MONGODB_URI,
    {useNewUrlParser:true})
 
 const db = mongoose.connection;
@@ -157,8 +157,8 @@ app.post('/showForum',
 app.use(errorController.pageNotFoundError);
 app.use(errorController.internalServerError);
 
-app.listen(app.get("port"), () => {
-  console.log(`Server running at http://localhost:${app.get("port")}`);
-});
+// app.listen(app.get("port"), () => {
+//   console.log(`Server running at http://localhost:${app.get("port")}`);
+// });
 
 module.exports = app;
