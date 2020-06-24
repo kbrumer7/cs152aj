@@ -12,8 +12,8 @@ const Forum = require("./models/Forum")
 
 const mongoose = require("mongoose");
 mongoose.connect(
-   'mongodb://localhost/classSearch',
-   //process.env.MONGODB_URI,
+   //'mongodb://localhost/classSearch',
+   process.env.MONGODB_URI,
    {useNewUrlParser:true})
 
 const db = mongoose.connection;
