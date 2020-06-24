@@ -1,5 +1,5 @@
 {
-  "name": "covid tracker",
+  "name": "server",
   "version": "1.0.0",
   "description": "COVID-19 Tracker.",
   "main": "app.js",
