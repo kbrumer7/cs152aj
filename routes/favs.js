@@ -5,6 +5,8 @@ const express = require('express');
 const router = express.Router();
 const FavStates = require('../models/FavStates')
 
+const Forum = require('../models/Forum')
+
 
 /*
 this is a very simple server which maintains a key/value
@@ -46,9 +48,24 @@ router.get('/',
   isLoggedIn,
   async (req, res, next) => {
     console.log('in favs router')
+    res.locals.forum = await Forum.find({userId: req.user._id})
+    console.log("forum="+res.locals.forum[0])
       res.locals.items = await FavStates.find({userId:req.user._id})
       res.render('favStates');
 });
 
+
+
+// router.get("/posts", async (req,res) => {
+//     try {
+//       res.locals.forum = await Forum.find({userId: req.user._id})
+//       console.log("forum="+res.locals.forum[0])
+//       res.render("favStates")
+//     }
+//     catch(theError){
+//       console.log("Error:")
+//       res.send("There was an error in /favStates!")
+//     }
+// });
 
 module.exports = router;
