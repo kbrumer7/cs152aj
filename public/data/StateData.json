@@ -360,15 +360,15 @@
     "statusbar":null,
 
     "extraImg": null,
-    "phaseMsg": "is in Phase 2",
-    "updateMsg": "Washington is in Phase 2 since like, 2 days ago",
-    "moreInfoURL":"/",
-    "pageLastUpdated":"2020-06-24",
+    "phaseMsg": "is in Phase 1, 2, or 3, depending on the county.",
+    "updateMsg": "King County moved to Phase 2 on June 19, 2020",
+    "moreInfoURL":"https://coronavirus.wa.gov/",
+    "pageLastUpdated":"2020-06-27",
 
     "theLatest":[
       {
         "type":"rawHTML",
-        "body":"This is some news!! <a href='/'>[this link]</a> for more details"
+        "body":"Masks are required in Washington as of June 26, 2020. See <a href='https://coronavirus.wa.gov/news/mask-requirement-begins-today'>[this link]</a> for more details"
       }
     ]
   },
