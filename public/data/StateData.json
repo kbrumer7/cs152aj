@@ -117,7 +117,7 @@
 
     "statusbar":{
       "type":"image",
-      "url":"/images/statusbar/Phase2.png"
+      "url":"/images/statusbar/Phase2.svg"
     },
 
     "extraImg": null,
