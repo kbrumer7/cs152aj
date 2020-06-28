@@ -37,7 +37,7 @@
     },
     "statusbar":{
       "type":"image",
-      "url":"/images/statusbar/phase2.svg"
+      "url":"/images/statusbar/phase2.png"
     },
     "extraImg": null,
     "phaseMsg": "is in Phase 2",
@@ -66,7 +66,7 @@
     },
     "statusbar":{
       "type":"image",
-      "url":"/images/statusbar/phase2.svg"
+      "url":"/images/statusbar/phase2.png"
     },
     "extraImg": null,
     "phaseMsg": "is in Phase 3",
@@ -117,7 +117,7 @@
 
     "statusbar":{
       "type":"image",
-      "url":"/images/statusbar/phase2.svg"
+      "url":"/images/statusbar/phase2.png"
     },
 
     "extraImg": null,
