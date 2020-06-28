@@ -37,7 +37,7 @@
     },
     "statusbar":{
       "type":"image",
-      "url":"/images/statusbar/phase2.png"
+      "url":"/images/statusbar/Phase2.png"
     },
     "extraImg": null,
     "phaseMsg": "is in Phase 2",
@@ -66,7 +66,7 @@
     },
     "statusbar":{
       "type":"image",
-      "url":"/images/statusbar/phase2.png"
+      "url":"/images/statusbar/Phase2.png"
     },
     "extraImg": null,
     "phaseMsg": "is in Phase 3",
@@ -117,7 +117,7 @@
 
     "statusbar":{
       "type":"image",
-      "url":"/images/statusbar/phase2.png"
+      "url":"/images/statusbar/Phase2.png"
     },
 
     "extraImg": null,
@@ -268,12 +268,15 @@
       "photo": "https://www.ny.gov/sites/ny.gov/files/thumbnails/image/CuomoGovSectionPhoto.jpg"
     },
 
-    "statusbar": null,
-    "extraImg": "https://forward.ny.gov/sites/g/files/oee1166/files/media/2020/06/nys_regionslabels_nyforwardreopeningphase3_westernny_capregion.png",
-    "phaseMsg": "Phase 1, 2, or 3",
-    "updateMsg": "New York is in Phase 1 in New York City, Phase 2 in Mid-Hudson and Long Island, and Phase 3 everywhere else",
+    "statusbar":{
+      "type":"image",
+      "url":"/images/statusbar/Phase234.png"
+    },
+    "extraImg": "https://forward.ny.gov/sites/g/files/oee1166/files/media/2020/06/nys_regionslabels_nyforwardreopeningphases_june26.png",
+    "phaseMsg": "Phase 2, 3, or 4",
+    "updateMsg": "New York is in Phase 2 in New York City, Phase 3 in Western NY, Capital Region, Mid-Hudson and Long Island, and Phase 4 everywhere else",
     "moreInfoURL":"https://forward.ny.gov/",
-    "pageLastUpdated":"2020-06-21",
+    "pageLastUpdated":"2020-06-28",
 
     "theLatest":[]
   },
