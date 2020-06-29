@@ -88,6 +88,16 @@ app.get("/ct", stateController.showGenericStateWithData);
 app.get("/al", stateController.showGenericStateWithData);
 app.get("/ak", stateController.showGenericStateWithData);
 app.get("/wa", stateController.showGenericStateWithData);
+app.get("/ar", stateController.showGenericStateWithData);
+app.get("/az", stateController.showGenericStateWithData);
+app.get("/co", stateController.showGenericStateWithData);
+app.get("/de", stateController.showGenericStateWithData);
+app.get("/fl", stateController.showGenericStateWithData);
+app.get("/ga", stateController.showGenericStateWithData);
+app.get("/hi", stateController.showGenericStateWithData);
+app.get("/id", stateController.showGenericStateWithData);
+app.get("/in", stateController.showGenericStateWithData);
+app.get("/ia", stateController.showGenericStateWithData);
 app.get("/contact", homeController.showSignUp);
 app.get("/forum", homeController.showForum);
 
