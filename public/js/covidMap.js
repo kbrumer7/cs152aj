@@ -173,7 +173,18 @@ $(document).ready(function() {
       'CT': {fill: 'orange'},
       'AL': {fill: 'orange'},
       'WA': {fill: 'orange'},
-      'AK': {fill: 'blue'}
+      'AK': {fill: 'blue'},
+      'AR': {fill:'red'},
+      'CO': {fill:'red'},
+      'DE':{fill:'orange'},
+      'FL':{fill:'orange'},
+      'GA':{fill:'orange'},
+      'HI':{fill:'orange'},
+      'ID':{fill:'green'},
+      'IL':{fill:'blue'},
+      'IN':{fill:'green'},
+      'IA':{fill:'orange'}
+
       //'FL': {fill: 'light blue'}
     }
   });
