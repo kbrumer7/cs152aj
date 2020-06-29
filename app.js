@@ -87,6 +87,7 @@ app.get("/ny", stateController.showGenericStateWithData);
 app.get("/ct", stateController.showGenericStateWithData);
 app.get("/al", stateController.showGenericStateWithData);
 app.get("/ak", stateController.showGenericStateWithData);
+app.get("/wa", stateController.showGenericStateWithData);
 app.get("/contact", homeController.showSignUp);
 app.get("/forum", homeController.showForum);
 
@@ -157,8 +158,8 @@ app.post('/showForum',
 app.use(errorController.pageNotFoundError);
 app.use(errorController.internalServerError);
 
-app.listen(app.get("port"), () => {
-  console.log(`Server running at http://localhost:${app.get("port")}`);
-});
+// app.listen(app.get("port"), () => {
+//   console.log(`Server running at http://localhost:${app.get("port")}`);
+// });
 
 module.exports = app;
