@@ -29,7 +29,7 @@
   },
 
   "al": {
-    "activePage":false,
+    "activePage":true,
     "name":"Alabama",
     "governor":{
       "name": "Kay Ivey",
@@ -58,7 +58,7 @@
   },
 
   "ak": {
-    "activePage":false,
+    "activePage":true,
     "name":"Alaska",
     "governor":{
       "name": "Mike Dunleavy",
@@ -88,12 +88,60 @@
 
   "az":{
     "activePage":false,
-    "name":"Arizona"
+    "name":"Arizona",
+    "governor":{
+      "name": "Doug Ducey",
+      "photo": "https://en.wikipedia.org/wiki/File:Doug_Ducey_by_Gage_Skidmore_13.jpg"
+    },
+    "statusbar":{
+      "type":"image",
+      "url":"/images/statusbar/Phase1.png"
+    },
+    "extraImg": null,
+    "phaseMsg": "is in Phase 1",
+    "updateMsg": "Alaska is in Phase 1 starting May 15th",
+    "moreInfoURL":"https://www.azdhs.gov/preparedness/epidemiology-disease-control/infectious-disease-epidemiology/index.php#novel-coronavirus-home",
+    "pageLastUpdated":"2000-6-28",
+    "theLatest":[
+      {
+        "type":"headline",
+        "title":"Latest Guidance (6/28/2020)",
+        "link":"https://www.azdhs.gov/preparedness/epidemiology-disease-control/infectious-disease-epidemiology/index.php#novel-coronavirus-home"
+      },
+      {
+        "type":"rawHTML",
+        "body":"Rules for reopening by sector: <a href='https://azgovernor.gov/sites/default/files/requirements_for_businesses.pdf'>[link]</a>."
+      }
+    ]
   },
 
   "ar":{
     "activePage":false,
-    "name":"Arkansas"
+    "name":"Arkansas",
+    "governor":{
+      "name": "Asa Hutchinson",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Asa_Hutchinson_2019.jpg/330px-Asa_Hutchinson_2019.jpg"
+    },
+    "statusbar":{
+      "type":"image",
+      "url":"/images/statusbar/Phase2.png"
+    },
+    "extraImg": null,
+    "phaseMsg": "is in Phase 2",
+    "updateMsg": "Arkansas is in Phase 2 starting June 15th",
+    "moreInfoURL":"https://www.healthy.arkansas.gov/programs-services/topics/novel-coronavirus",
+    "pageLastUpdated":"2000-6-28",
+    "theLatest":[
+      {
+        "type":"headline",
+        "title":"Latest Guidance (6/28/2020)",
+        "link":"https://www.healthy.arkansas.gov/images/uploads/pdf/guidance_face_coverings.pdf"
+      },
+      {
+        "type":"rawHTML",
+        "body":"Rules for reopening by sector: <a href='https://www.healthy.arkansas.gov/images/uploads/pdf/directive_business_limitations_phase_II.pdf'>[link]</a>."
+      }
+    ]
   },
 
   "ca":{
@@ -102,8 +150,32 @@
   },
 
   "co":{
-    "activePage":false,
-    "name":"Colorado"
+    "activePage":true,
+    "name":"Colorado",
+    "governor":{
+      "name": "Jared Polis",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Jared_Polis_official_photo.jpg/330px-Jared_Polis_official_photo.jpg"
+    },
+    "statusbar":{
+      "type":"image",
+      "url":"/images/statusbar/Phase1.png"
+    },
+    "extraImg": null,
+    "phaseMsg": "is in Phase 1",
+    "updateMsg": "Colorado is in Phase 1 starting May 15th",
+    "moreInfoURL":"https://covid19.colorado.gov/",
+    "pageLastUpdated":"2000-6-28",
+    "theLatest":[
+      {
+        "type":"headline",
+        "title":"Latest Guidance (6/28/2020)",
+        "link":"https://covid19.colorado.gov/guidance-resources"
+      },
+      {
+        "type":"rawHTML",
+        "body":"Rules for reopening by sector: <a href='https://covid19.colorado.gov/safer-at-home'>[link]</a>."
+      }
+    ]
   },
 
   "ct":{
@@ -141,42 +213,236 @@
 
   "de":{
     "activePage":false,
-    "name":"Delaware"
+    "name":"Delaware",
+    "governor":{
+      "name": "John Carney",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/John_C._Carney_Jr._official_portrait_112th_Congress.jpg/330px-John_C._Carney_Jr._official_portrait_112th_Congress.jpg"
+    },
+    "statusbar":{
+      "type":"image",
+      "url":"/images/statusbar/Phase2.png"
+    },
+    "extraImg": null,
+    "phaseMsg": "is in Phase 2",
+    "updateMsg": "Delaware is in Phase 2 starting June 15th",
+    "moreInfoURL":"https://coronavirus.delaware.gov/reopening/phase2/",
+    "pageLastUpdated":"2000-6-28",
+    "theLatest":[
+      {
+        "type":"headline",
+        "title":"Latest Guidance (6/28/2020)",
+        "link":"https://coronavirus.delaware.gov/what-delawareans-can-do/"
+      },
+      {
+        "type":"rawHTML",
+        "body":"Rules for reopening by sector: <a href='https://business.delaware.gov/coronavirus/delawares-recovery-phase-2-guidance/'>[link]</a>."
+      }
+    ]
+
   },
 
   "fl":{
     "activePage":false,
-    "name":"Florida"
+    "name":"Florida",
+    "governor":{
+      "name": "Ron DeSantis",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Ron_DeSantis%2C_Official_Portrait%2C_113th_Congress.jpg/330px-Ron_DeSantis%2C_Official_Portrait%2C_113th_Congress.jpg"
+    },
+    "statusbar":{
+      "type":"image",
+      "url":"/images/statusbar/Phase2.png"
+    },
+    "extraImg": null,
+    "phaseMsg": "is in Phase 2",
+    "updateMsg": "Florida is in Phase 2 starting June 3rd",
+    "moreInfoURL":"https://floridahealthcovid19.gov/",
+    "pageLastUpdated":"2000-6-28",
+    "theLatest":[
+      {
+        "type":"headline",
+        "title":"Latest Guidance (6/28/2020)",
+        "link":"https://floridahealthcovid19.gov/prevention/"
+      },
+      {
+        "type":"rawHTML",
+        "body":"Rules for reopening by sector: <a href='https://www.flgov.com/2020/06/11/governor-ron-desantis-announces-recommendations-to-safely-reopen-floridas-education-system/'>[link]</a>."
+      }
+    ]
+
   },
 
   "ga":{
     "activePage":false,
-    "name":"Georgia"
+    "name":"Georgia",
+    "governor":{
+      "name": "Ron DeSantis",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Ron_DeSantis%2C_Official_Portrait%2C_113th_Congress.jpg/330px-Ron_DeSantis%2C_Official_Portrait%2C_113th_Congress.jpg"
+    },
+    "statusbar":{
+      "type":"image",
+      "url":"/images/statusbar/Phase2.png"
+    },
+    "extraImg": null,
+    "phaseMsg": "is in Phase 2",
+    "updateMsg": "Georgia is in Phase 2",
+    "moreInfoURL":"https://dph.georgia.gov/covid-19-daily-status-report",
+    "pageLastUpdated":"2000-6-28",
+    "theLatest":[
+      {
+        "type":"headline",
+        "title":"Latest Guidance (6/28/2020)",
+        "link":"https://dph.georgia.gov/health-topics/coronavirus-covid-19"
+      },
+      {
+        "type":"rawHTML",
+        "body":"Rules for reopening by sector: <a href='https://georgia.gov/covid-19-coronavirus-georgia/covid-19-state-services-georgia'>[link]</a>."
+      }
+    ]
   },
 
   "hi":{
     "activePage":false,
-    "name":"Hawaii"
+    "name":"Hawaii",
+    "governor":{
+      "name": "David Ige",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Governor_David_Ige.jpg/330px-Governor_David_Ige.jpg"
+    },
+    "statusbar":{
+      "type":"image",
+      "url":"/images/statusbar/Phase2.png"
+    },
+    "extraImg": null,
+    "phaseMsg": "is in Phase 2",
+    "updateMsg": "Hawaii is in Phase 2",
+    "moreInfoURL":"https://health.hawaii.gov/coronavirusdisease2019/",
+    "pageLastUpdated":"2000-6-28",
+    "theLatest":[
+      {
+        "type":"headline",
+        "title":"Latest Guidance (6/28/2020)",
+        "link":"https://health.hawaii.gov/docd/prevention/handwashing-and-hand-hygiene/"
+      },
+      {
+        "type":"rawHTML",
+        "body":"Rules for reopening by sector: <a href='https://recoverynavigator.hawaii.gov/reopening-status/'>[link]</a>."
+      }
+    ]
   },
 
   "id":{
     "activePage":false,
-    "name":"Idaho"
+    "name":"Idaho",
+    "governor":{
+      "name": "Brad Little",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Brad_Little_official_photo.jpg/330px-Brad_Little_official_photo.jpg"
+    },
+    "statusbar":{
+      "type":"image",
+      "url":"/images/statusbar/Phase4.png"
+    },
+    "extraImg": null,
+    "phaseMsg": "is in Phase 4",
+    "updateMsg": "Idaho is in Phase 4 starting June 13th",
+    "moreInfoURL":"https://rebound.idaho.gov/stages-of-reopening/",
+    "pageLastUpdated":"2000-6-28",
+    "theLatest":[
+      {
+        "type":"headline",
+        "title":"Latest Guidance (6/28/2020)",
+        "link":"https://coronavirus.idaho.gov/"
+      },
+      {
+        "type":"rawHTML",
+        "body":"Rules for reopening by sector: <a href='https://rebound.idaho.gov/stages-of-reopening/'>[link]</a>."
+      }
+    ]
   },
 
   "il":{
     "activePage":false,
-    "name":"Illinois"
+    "name":"Illinois",
+    "governor":{
+      "name": "J. B. Pritzker",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Illinois_Gov._J.B._Pritzker.jpg/330px-Illinois_Gov._J.B._Pritzker.jpg"
+    },
+    "statusbar":{
+      "type":"image",
+      "url":"/images/statusbar/Phase3.png"
+    },
+    "extraImg": null,
+    "phaseMsg": "is in Phase 3",
+    "updateMsg": "Illinois is in Phase 3",
+    "moreInfoURL":"https://coronavirus.illinois.gov/s/",
+    "pageLastUpdated":"2000-6-28",
+    "theLatest":[
+      {
+        "type":"headline",
+        "title":"Latest Guidance (6/28/2020)",
+        "link":"https://dph.illinois.gov/covid19"
+      },
+      {
+        "type":"rawHTML",
+        "body":"Rules for reopening by sector: <a href='https://dceocovid19resources.com/restore-illinois/restore-illinois-phase-3/'>[link]</a>."
+      }
+    ]
   },
 
   "in":{
     "activePage":false,
-    "name":"Indiana"
+    "name":"Indiana",
+    "governor":{
+      "name": "Eric Holcomb",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Lt._Gov._Eric_Holcomb.jpg/330px-Lt._Gov._Eric_Holcomb.jpg"
+    },
+    "statusbar":{
+      "type":"image",
+      "url":"/images/statusbar/Phase4.png"
+    },
+    "extraImg": null,
+    "phaseMsg": "is in Phase 4",
+    "updateMsg": "Indiana is in Phase 4",
+    "moreInfoURL":"https://www.coronavirus.in.gov/2393.htm",
+    "pageLastUpdated":"2000-6-28",
+    "theLatest":[
+      {
+        "type":"headline",
+        "title":"Latest Guidance (6/28/2020)",
+        "link":"https://www.coronavirus.in.gov/files/IN_COVID-19%20masks%206.18.20.pdf"
+      },
+      {
+        "type":"rawHTML",
+        "body":"Rules for reopening by sector: <a href='https://backontrack.in.gov/files/BackOnTrack-IN_WhatsOpen-Closed-stage4.pdf'>[link]</a>."
+      }
+    ]
   },
 
   "ia":{
     "activePage":false,
-    "name":"Iowa"
+    "name":"Iowa",
+    "governor":{
+      "name": "Kim Reynolds",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Kim_Reynolds_by_Gage_Skidmore_%28cropped%29.jpg/330px-Kim_Reynolds_by_Gage_Skidmore_%28cropped%29.jpg"
+    },
+    "statusbar":{
+      "type":"image",
+      "url":"/images/statusbar/Phase2.png"
+    },
+    "extraImg": null,
+    "phaseMsg": "is in Phase 2",
+    "updateMsg": "Indiana is in Phase 2",
+    "moreInfoURL":"https://coronavirus.iowa.gov/",
+    "pageLastUpdated":"2000-6-28",
+    "theLatest":[
+      {
+        "type":"headline",
+        "title":"Latest Guidance (6/28/2020)",
+        "link":"https://coronavirus.iowa.gov/pages/resources"
+      },
+      {
+        "type":"rawHTML",
+        "body":"Rules for reopening by sector: <a href='https://idph.iowa.gov/Portals/1/userfiles/61/covid19/resources/IDPH%20Reopening%20Guidance%205_12_20.pdf'>[link]</a>."
+      }
+    ]
   },
 
   "ks":{
