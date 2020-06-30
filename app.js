@@ -99,6 +99,9 @@ app.get("/id", stateController.showGenericStateWithData);
 app.get("/in", stateController.showGenericStateWithData);
 app.get("/il", stateController.showGenericStateWithData);
 app.get("/ia", stateController.showGenericStateWithData);
+app.get("/ok", stateController.showGenericStateWithData);
+app.get("/ne", stateController.showGenericStateWithData);
+app.get("/sd", stateController.showGenericStateWithData);
 app.get("/contact", homeController.showSignUp);
 app.get("/forum", homeController.showForum);
 

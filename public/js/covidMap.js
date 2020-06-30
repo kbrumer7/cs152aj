@@ -183,7 +183,11 @@ $(document).ready(function() {
       'ID':{fill:'green'},
       'IL':{fill:'blue'},
       'IN':{fill:'green'},
-      'IA':{fill:'orange'}
+      'IA':{fill:'orange'},
+      'OK':{fill:'blue'},
+      'NE':{fill:'blue'},
+      'SD':{fill:'green'}
+
 
       //'FL': {fill: 'light blue'}
     }
