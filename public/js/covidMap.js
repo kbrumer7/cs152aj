@@ -20,151 +20,151 @@ $(document).ready(function() {
                 description = 'ak';
                 break;
               case 'AZ':
-                description = 'arizona';
+                description = 'az';
                 break;
               case 'AR':
-                description = 'arkansas';
+                description = 'ar';
                 break;
               case 'CA':
                 description = 'ca';
                 break;
               case 'CO':
-                description = 'colorado';
+                description = 'co';
                 break;
               case 'CT':
                 description = 'ct';
                 break;
               case 'DE':
-                description = 'delaware';
+                description = 'de';
                 break;
               case 'FL':
-                description = 'florida';
+                description = 'fl';
                 break;
               case 'GA':
-                description = 'georgia';
+                description = 'ga';
                 break;
               case 'HI':
-                description = 'hawaii';
+                description = 'hi';
                 break;
               case 'ID':
-                description = 'idaho';
+                description = 'id';
                 break;
               case 'IL':
-                description = 'illinois';
+                description = 'il';
                 break;
               case 'IN':
-                description = 'indiana';
+                description = 'in';
                 break;
               case 'IA':
-                description = 'iowa';
+                description = 'ia';
                 break;
               case 'KS':
-                description = 'kansas';
+                description = 'ks';
                 break;
               case 'KY':
-                description = 'kentucky';
+                description = 'ky';
                 break;
               case 'LA':
-                description = 'louisiana';
+                description = 'la';
                 break;
               case 'ME':
-                description = 'maine';
+                description = 'me';
                 break;
               case 'MD':
-                description = 'maryland';
+                description = 'md';
                 break;
               case 'MA':
                 description = 'ma';
                 break;
               case 'MI':
-                description = 'michigan';
+                description = 'mi';
                 break;
               case 'MN':
-                description = 'minnesota';
+                description = 'mn';
                 break;
               case 'MS':
-                description = 'mississippi';
+                description = 'ms';
                 break;
               case 'MO':
-                description = 'missouri';
+                description = 'mo';
                 break;
               case 'MT':
-                description = 'montana';
+                description = 'mt';
                 break;
               case 'NE':
-                description = 'nebraska';
+                description = 'ne';
                 break;
               case 'NV':
-                  description = 'nevada';
+                  description = 'nv';
                   break;
               case 'NH':
-                  description = 'newhampshire';
+                  description = 'nh';
                   break;
               case 'NJ':
-                  description = 'newjersey';
+                  description = 'nj';
                   break;
               case 'NM':
-                  description = 'newmexico';
+                  description = 'nm';
                   break;
               case 'NY':
                   description = 'ny';
                   break;
               case 'NC':
-                  description = 'northcarolina';
+                  description = 'nc';
                   break;
               case 'ND':
-                  description = 'northdakota';
+                  description = 'nd';
                   break;
               case 'OH':
-                  description = 'ohio';
+                  description = 'oh';
                   break;
               case 'OK':
-                  description = 'oklahoma';
+                  description = 'ok';
                   break;
               case 'OR':
-                  description = 'oregon';
+                  description = 'or';
                   break;
               case 'PA':
-                  description = 'pennsylvania';
+                  description = 'pa';
                   break;
               case 'RI':
-                  description = 'rhodeisland';
+                  description = 'ri';
                   break;
               case 'SC':
-                  description = 'southcarolina';
+                  description = 'sc';
                   break;
               case 'SD':
-                  description = 'southdakota';
+                  description = 'sd';
                   break;
               case 'TN':
-                  description = 'tennessee';
+                  description = 'tn';
                   break;
               case 'TX':
-                  description = 'texas';
+                  description = 'tx';
                   break;
               case 'UT':
-                  description = 'utah';
+                  description = 'ut';
                   break;
               case 'VT':
-                  description = 'vermont';
+                  description = 'vt';
                   break;
               case 'VA':
-                  description = 'virginia';
+                  description = 'va';
                   break;
               case 'WA':
                   description = 'wa';
                   break;
               case 'WV':
-                  description = 'westvirginia';
+                  description = 'wv';
                   break;
               case 'WI':
-                  description = 'wisconsin';
+                  description = 'wi';
                   break;
               case 'WY':
-                  description = 'wyoming';
+                  description = 'wy';
                   break;
               case 'DC':
-                  description = 'washingtondc';
+                  description = 'dc';
                   break;
                    // etc
              }
