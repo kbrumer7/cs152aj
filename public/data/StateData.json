@@ -629,7 +629,7 @@
     "statusbar":null,
 
     "extraImg": null,
-    "phaseMsg": "is in Phase 1, 2, or 3, depending on the county.",
+    "phaseMsg": "is in Phase 1, 2, or 3, depending on the county",
     "updateMsg": "King County moved to Phase 2 on June 19, 2020",
     "moreInfoURL":"https://coronavirus.wa.gov/",
     "pageLastUpdated":"2020-06-27",
