@@ -91,7 +91,7 @@
     "name":"Arizona",
     "governor":{
       "name": "Doug Ducey",
-      "photo": "https://en.wikipedia.org/wiki/File:Doug_Ducey_by_Gage_Skidmore_13.jpg"
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Doug_Ducey_by_Gage_Skidmore_13.jpg/419px-Doug_Ducey_by_Gage_Skidmore_13.jpg"
     },
     "statusbar":{
       "type":"image",
