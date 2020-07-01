@@ -4,6 +4,11 @@ $(document).ready(function() {
    * **/
   $('#map').usmap({
       stateStyles: {fill: '#fff'},
+      
+      stateHoverStyles: {fill: 'rgb(183, 180, 224)'},
+
+      stateHoverAnimation: 200,
+
       'click': function(event, data) {
           var description = "No state info loaded for this state.";
             switch (data.name)
