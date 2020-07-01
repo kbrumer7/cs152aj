@@ -4,7 +4,7 @@ $(document).ready(function() {
    * **/
   $('#map').usmap({
       stateStyles: {fill: '#fff'},
-      
+
       stateHoverStyles: {fill: 'rgb(183, 180, 224)'},
 
       stateHoverAnimation: 200,
@@ -192,10 +192,37 @@ $(document).ready(function() {
       'IA':{fill:'orange'},
       'OK':{fill:'blue'},
       'NE':{fill:'blue'},
-      'SD':{fill:'green'}
+      'SD':{fill:'green'},
+      'KS':{fill:'blue'},
+      'KY':{fill:'green'},
+      'LA':{fill:'orange'},
+      'ME':{fill:'blue'},
+      'MD':{fill:'orange'},
+      'MI':{fill:'green'},
+      'MN':{fill:'blue'},
+      'MS':{fill:'blue'},
+      'MO':{fill:'orange'},
+      'MT':{fill:'orange'},
+      'NV':{fill:'orange'},
+      'NH':{fill:'orange'},
+      'NM':{fill:'orange'},
+      'NC':{fill:'orange'},
+      'ND':{fill:'orange'},
+      'OH':{fill:'red'},
+      'PA':{fill:'blue'},
+      'RI':{fill:'blue'},
+      'SC':{fill:'blue'},
+      'TN':{fill:'orange'},
+      'TX':{fill:'red'},
+      'UT':{fill:'green'},
+      'VT':{fill:'orange'},
+      'VA':{fill:'orange'},
+      'WV':{fill:'green'},
+      'WI':{fill:'blue'},
+      'WY':{fill:'green'},
+      'DC':{fill:'orange'},
+      'NJ':{fill:'orange'}
 
-
-      //'FL': {fill: 'light blue'}
     }
   });
 

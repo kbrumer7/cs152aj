@@ -447,7 +447,7 @@
 
   "ks":{
     "activePage":false,
-    "name":"Kansas"
+    "name":"Kansas",
     "governor":{
       "name": "Laura Kelly",
       "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Laura_Kelly_official_photo.jpg/330px-Laura_Kelly_official_photo.jpg"
@@ -476,22 +476,118 @@
 
   "ky": {
     "activePage":false,
-    "name":"Kentucky"
+    "name":"Kentucky",
+    "governor":{
+      "name": "Andy Beshear",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Gov._Beshear_of_Kentucky_2020.jpg/330px-Gov._Beshear_of_Kentucky_2020.jpg"
+    },
+    "statusbar":{
+      "type":"image",
+      "url":"/images/statusbar/Open.png"
+    },
+    "extraImg": null,
+    "phaseMsg": "is not in any phases",
+    "updateMsg": "Kentucky is not in any phases",
+    "moreInfoURL":"https://www.coronavirus.kdheks.gov/225/How-to-protect-yourself-and-others",
+    "pageLastUpdated":"2000-6-30",
+    "theLatest":[
+      {
+        "type":"headline",
+        "title":"Latest Guidance (6/28/2020)",
+        "link":"https://governor.ky.gov/covid19"
+      },
+      {
+        "type":"rawHTML",
+        "body":"Rules for reopening by sector: <a href='https://governor.ky.gov/covid19'>[link]</a>."
+      }
+    ]
   },
 
   "la": {
     "activePage":false,
-    "name":"Louisiana"
+    "name":"Louisiana",
+    "governor":{
+      "name": "John Bel Edwards",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/John_Bel_Edwards.jpg/330px-John_Bel_Edwards.jpg"
+    },
+    "statusbar":{
+      "type":"image",
+      "url":"/images/statusbar/Phase2.png"
+    },
+    "extraImg": null,
+    "phaseMsg": "is in Phase 2",
+    "updateMsg": "Louisiana is in Phase 2 since June 4th",
+    "moreInfoURL":"https://gov.louisiana.gov/index.cfm/newsroom/detail/2532",
+    "pageLastUpdated":"2000-6-30",
+    "theLatest":[
+      {
+        "type":"headline",
+        "title":"Latest Guidance (6/28/2020)",
+        "link":"http://ldh.la.gov/coronavirus/"
+      },
+      {
+        "type":"rawHTML",
+        "body":"Rules for reopening by sector: <a href='https://gov.louisiana.gov/index.cfm/newsroom/detail/2532'>[link]</a>."
+      }
+    ]
   },
 
   "me":{
     "activePage":false,
-    "name":"Maine"
+    "name":"Maine",
+    "governor":{
+      "name": "Janet Mills",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Maine_congressional_delegation_meets_with_Gov_Janet_Mills_%28cropped%29.jpg/330px-Maine_congressional_delegation_meets_with_Gov_Janet_Mills_%28cropped%29.jpg"
+    },
+    "statusbar":{
+      "type":"image",
+      "url":"/images/statusbar/Phase3.png"
+    },
+    "extraImg": null,
+    "phaseMsg": "is in Phase 3",
+    "updateMsg": "Maine is in Phase 3",
+    "moreInfoURL":"https://www.maine.gov/dhhs/mecdc/infectious-disease/epi/airborne/coronavirus/communities-workplaces-schools.shtml",
+    "pageLastUpdated":"2000-6-30",
+    "theLatest":[
+      {
+        "type":"headline",
+        "title":"Latest Guidance (6/28/2020)",
+        "link":"https://www.maine.gov/dhhs/mecdc/infectious-disease/epi/airborne/coronavirus/index.shtml"
+      },
+      {
+        "type":"rawHTML",
+        "body":"Rules for reopening by sector: <a href='https://www.newscentermaine.com/article/money/business/more-stage-3-reopening-checklists-now-available/97-6cef1447-9fdc-4300-8d6a-949f35aea564'>[link]</a>."
+      }
+    ]
   },
 
   "md":{
     "activePage":false,
-    "name":"Maryland"
+    "name":"Maryland",
+    "governor":{
+      "name": "Larry Hogan",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Larry_Hogan_2020.jpg/330px-Larry_Hogan_2020.jpg"
+    },
+    "statusbar":{
+      "type":"image",
+      "url":"/images/statusbar/Phase2.png"
+    },
+    "extraImg": null,
+    "phaseMsg": "is in Phase 2",
+    "updateMsg": "Maryland is in Phase 2",
+    "moreInfoURL":"https://governor.maryland.gov/2020/06/03/governor-hogan-announces-beginning-of-stage-two-of-marylands-covid-19-recovery-safe-and-gradual-reopening-of-workplaces-and-businesses/",
+    "pageLastUpdated":"2000-6-30",
+    "theLatest":[
+      {
+        "type":"headline",
+        "title":"Latest Guidance (6/28/2020)",
+        "link":"https://governor.maryland.gov/coronavirus/"
+      },
+      {
+        "type":"rawHTML",
+        "body":"Rules for reopening by sector: <a href='https://governor.maryland.gov/recovery/'>[link]</a>."
+      }
+    ]
   },
 
   "ma":{
@@ -501,27 +597,147 @@
 
   "mi":{
     "activePage":false,
-    "name":"Michigan"
+    "name":"Michigan",
+    "governor":{
+      "name": "Gretchen Whitmer",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Gov._Gretchen_Whitmer_%28cropped%29.jpg/330px-Gov._Gretchen_Whitmer_%28cropped%29.jpg"
+    },
+    "statusbar":{
+      "type":"image",
+      "url":"/images/statusbar/Phase4.png"
+    },
+    "extraImg": null,
+    "phaseMsg": "is in Phase 5 out of 6",
+    "updateMsg": "Michigan is in Phase 5 of 6",
+    "moreInfoURL":"https://www.clickondetroit.com/news/local/2020/05/07/here-are-the-6-stages-in-michigan-gov-gretchen-whitmers-plan-to-fully-reopen-the-state/",
+    "pageLastUpdated":"2000-6-30",
+    "theLatest":[
+      {
+        "type":"headline",
+        "title":"Latest Guidance (6/28/2020)",
+        "link":"https://www.michigan.gov/coronavirus/0,9753,7-406-98163_98173---,00.html"
+      },
+      {
+        "type":"rawHTML",
+        "body":"Rules for reopening by sector: <a href='https://www.michigan.gov/coronavirus/0,9753,7-406-98158-531333--,00.html'>[link]</a>."
+      }
+    ]
   },
 
   "mn":{
     "activePage":false,
-    "name":"Minnesota"
+    "name":"Minnesota",
+    "governor":{
+      "name": "Tim Walz",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Tim_Walz_official_photo.jpg/330px-Tim_Walz_official_photo.jpg"
+    },
+    "statusbar":{
+      "type":"image",
+      "url":"/images/statusbar/Phase3.png"
+    },
+    "extraImg": null,
+    "phaseMsg": "is in Phase 3",
+    "updateMsg": "Minnesota is in Phase 3",
+    "moreInfoURL":"https://mn.gov/covid19/for-minnesotans/stay-safe-mn/stay-safe-plan.jsp",
+    "pageLastUpdated":"2000-6-30",
+    "theLatest":[
+      {
+        "type":"headline",
+        "title":"Latest Guidance (6/28/2020)",
+        "link":"https://www.health.state.mn.us/diseases/coronavirus/situation.html"
+      },
+      {
+        "type":"rawHTML",
+        "body":"Rules for reopening by sector: <a href='https://mn.gov/deed/newscenter/covid/safework/safe-reopening/'>[link]</a>."
+      }
+    ]
   },
 
   "ms":{
     "activePage":false,
-    "name":"Mississippi"
+    "name":"Mississippi",
+    "governor":{
+      "name": "Tate Reeves",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Tate_Reeves_2019.jpg/330px-Tate_Reeves_2019.jpg"
+    },
+    "statusbar":{
+      "type":"image",
+      "url":"/images/statusbar/Phase1.png"
+    },
+    "extraImg": null,
+    "phaseMsg": "is not in any phases",
+    "updateMsg": "Mississippi is not in any phases",
+    "moreInfoURL":"https://msdh.ms.gov/msdhsite/_static/14,21866,420.html",
+    "pageLastUpdated":"2000-6-30",
+    "theLatest":[
+      {
+        "type":"headline",
+        "title":"Latest Guidance (6/28/2020)",
+        "link":"https://msdh.ms.gov/msdhsite/_static/14,0,420.html"
+      },
+      {
+        "type":"rawHTML",
+        "body":"Rules for reopening by sector: <a href='https://www.clarionledger.com/story/news/politics/2020/05/27/mississippi-coronavirus-all-mississippi-businesses-can-reopen-monday/5266016002/'>[link]</a>."
+      }
+    ]
   },
 
   "mo":{
     "activePage":false,
-    "name":"Missouri"
+    "name":"Missouri",
+    "governor":{
+      "name": "Mike Parson",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Mike_Parson_official_photo.jpg/330px-Mike_Parson_official_photo.jpg"
+    },
+    "statusbar":{
+      "type":"image",
+      "url":"/images/statusbar/Phase2.png"
+    },
+    "extraImg": null,
+    "phaseMsg": "is in Phase 2",
+    "updateMsg": "Missouri is in Phase 2 since June 16th",
+    "moreInfoURL":"https://governor.mo.gov/show-me-strong-recovery-plan-guidance-and-frequently-asked-questions",
+    "pageLastUpdated":"2000-6-30",
+    "theLatest":[
+      {
+        "type":"headline",
+        "title":"Latest Guidance (6/28/2020)",
+        "link":"https://health.mo.gov/living/healthcondiseases/communicable/novel-coronavirus/"
+      },
+      {
+        "type":"rawHTML",
+        "body":"Rules for reopening by sector: <a href='https://governor.mo.gov/show-me-strong-recovery-plan-guidance-and-frequently-asked-questions'>[link]</a>."
+      }
+    ]
   },
 
   "mt":{
     "activePage":false,
-    "name":"Montana"
+    "name":"Montana",
+    "governor":{
+      "name": "Steve Bullock",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Steve_Bullock_by_Gage_Skidmore.jpg/330px-Steve_Bullock_by_Gage_Skidmore.jpg"
+    },
+    "statusbar":{
+      "type":"image",
+      "url":"/images/statusbar/Phase2.png"
+    },
+    "extraImg": null,
+    "phaseMsg": "is in Phase 2",
+    "updateMsg": "Montana is in Phase 2",
+    "moreInfoURL":"https://covid19.mt.gov/",
+    "pageLastUpdated":"2000-6-30",
+    "theLatest":[
+      {
+        "type":"headline",
+        "title":"Latest Guidance (6/28/2020)",
+        "link":"https://dphhs.mt.gov/publichealth/cdepi/diseases/coronavirusmt"
+      },
+      {
+        "type":"rawHTML",
+        "body":"Rules for reopening by sector: <a href='https://covid19.mt.gov/Portals/223/Documents/Phase%20Two%20Directive%20with%20Appendices.pdf?ver=2020-05-19-145442-350'>[link]</a>."
+      }
+    ]
   },
 
   "ne":{
@@ -547,7 +763,7 @@
     "theLatest":[
       {
         "type":"headline",
-        "title":"Outlie of reopening phases.",
+        "title":"Outline of reopening phases.",
         "link":"http://dhhs.ne.gov/Pages/COVID-19-Directed-Health-Measures.aspx"
       }
     ]
@@ -555,22 +771,118 @@
 
   "nv":{
     "activePage":false,
-    "name":"Nevada"
+    "name":"Nevada",
+    "governor":{
+      "name": "Steve Sisolak",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/WEB_GovElectSisolak2.jpg/330px-WEB_GovElectSisolak2.jpg"
+    },
+    "statusbar":{
+      "type":"image",
+      "url":"/images/statusbar/Phase2.png"
+    },
+    "extraImg": null,
+    "phaseMsg": "is in Phase 2",
+    "updateMsg": "Nevada is in Phase 2",
+    "moreInfoURL":"https://nvhealthresponse.nv.gov/wp-content/uploads/2020/05/Roadmap-to-Recovery-Chart-vFINAL.pdf",
+    "pageLastUpdated":"2000-6-30",
+    "theLatest":[
+      {
+        "type":"headline",
+        "title":"Latest Guidance (6/28/2020)",
+        "link":"https://nvhealthresponse.nv.gov/"
+      },
+      {
+        "type":"rawHTML",
+        "body":"Rules for reopening by sector: <a href='https://nvhealthresponse.nv.gov/info/business/'>[link]</a>."
+      }
+    ]
   },
 
   "nh":{
     "activePage":false,
-    "name":"New Hampshire"
+    "name":"New Hampshire",
+    "governor":{
+      "name": "Chris Sununu",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Christopher_T_Sununu.jpg/330px-Christopher_T_Sununu.jpg"
+    },
+    "statusbar":{
+      "type":"image",
+      "url":"/images/statusbar/Phase2.png"
+    },
+    "extraImg": null,
+    "phaseMsg": "is in Phase 2",
+    "updateMsg": "New Hampshire is in Phase 2",
+    "moreInfoURL":"https://nvhealthresponse.nv.gov/wp-content/uploads/2020/05/Roadmap-to-Recovery-Chart-vFINAL.pdf",
+    "pageLastUpdated":"2000-6-30",
+    "theLatest":[
+      {
+        "type":"headline",
+        "title":"Latest Guidance (6/28/2020)",
+        "link":"https://www.nh.gov/covid19/"
+      },
+      {
+        "type":"rawHTML",
+        "body":"Businesses Guidance: <a href='https://www.nh.gov/covid19/resources-guidance/businesses.htm'>[link]</a>."
+      }
+    ]
   },
 
   "nj":{
     "activePage":false,
-    "name":"New Jersey"
+    "name":"New Jersey",
+    "governor":{
+      "name": "Phil Murphy",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Phil_Murphy_for_Governor_%2833782680673%29_%28cropped%29.jpg/330px-Phil_Murphy_for_Governor_%2833782680673%29_%28cropped%29.jpg"
+    },
+    "statusbar":{
+      "type":"image",
+      "url":"/images/statusbar/Phase2.png"
+    },
+    "extraImg": null,
+    "phaseMsg": "is in Phase 2",
+    "updateMsg": "New Jersey is in Phase 2 since June 15th",
+    "moreInfoURL":"https://covid19.nj.gov/faqs/nj-information/general-public/when-and-how-is-new-jersey-lifting-restrictions-what-does-a-responsible-and-strategic-restart-of-new-jerseys-economy-look-like",
+    "pageLastUpdated":"2000-6-30",
+    "theLatest":[
+      {
+        "type":"headline",
+        "title":"Latest Guidance (6/28/2020)",
+        "link":"https://covid19.nj.gov/"
+      },
+      {
+        "type":"rawHTML",
+        "body":"Rules for reopening by sector: <a href='https://covid19.nj.gov/faqs/nj-information/general-public/when-and-how-is-new-jersey-lifting-restrictions-what-does-a-responsible-and-strategic-restart-of-new-jerseys-economy-look-like'>[link]</a>."
+      }
+    ]
   },
 
   "nm":{
     "activePage":false,
-    "name":"New Mexico"
+    "name":"New Mexico",
+    "governor":{
+      "name": "Michelle Lujan Grisham",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Michelle_Lujan_Grisham_official_photo.jpg/330px-Michelle_Lujan_Grisham_official_photo.jpg"
+    },
+    "statusbar":{
+      "type":"image",
+      "url":"/images/statusbar/Phase234.png"
+    },
+    "extraImg": null,
+    "phaseMsg": "is not in any phases",
+    "updateMsg": "New Mexico is not in any phases",
+    "moreInfoURL":"https://www.rrnm.gov/4523/New-Mexico-Reopening-Plan",
+    "pageLastUpdated":"2000-6-30",
+    "theLatest":[
+      {
+        "type":"headline",
+        "title":"Latest Guidance (6/28/2020)",
+        "link":"https://cv.nmhealth.org/"
+      },
+      {
+        "type":"rawHTML",
+        "body":"Rules for reopening by sector: <a href='https://www.rrnm.gov/4523/New-Mexico-Reopening-Plan'>[link]</a>."
+      }
+    ]
   },
 
   "ny":{
@@ -597,17 +909,89 @@
 
   "nc":{
     "activePage":false,
-    "name":"North Carolina"
+    "name":"North Carolina",
+    "governor":{
+      "name": "Roy Cooper",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Gov._Roy_Cooper.jpg/330px-Gov._Roy_Cooper.jpg"
+    },
+    "statusbar":{
+      "type":"image",
+      "url":"/images/statusbar/Phase2.png"
+    },
+    "extraImg": null,
+    "phaseMsg": "is in phase 2",
+    "updateMsg": "North Carolina is in phase 2",
+    "moreInfoURL":"https://www.nc.gov/covid-19/staying-ahead-curve",
+    "pageLastUpdated":"2000-6-30",
+    "theLatest":[
+      {
+        "type":"headline",
+        "title":"Latest Guidance (6/28/2020)",
+        "link":"https://covid19.ncdhhs.gov/dashboard"
+      },
+      {
+        "type":"rawHTML",
+        "body":"Rules for reopening by sector: <a href='https://www.nc.gov/covid-19/staying-ahead-curve'>[link]</a>."
+      }
+    ]
   },
 
   "nd":{
     "activePage":false,
-    "name":"North Dakota"
+    "name":"North Dakota",
+    "governor":{
+      "name": "Doug Burgum",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Governor_Doug_Burgum.jpg/330px-Governor_Doug_Burgum.jpg"
+    },
+    "statusbar":{
+      "type":"image",
+      "url":"/images/statusbar/Phase2.png"
+    },
+    "extraImg": null,
+    "phaseMsg": "is not in any phases",
+    "updateMsg": "North Dakota is not in any phases",
+    "moreInfoURL":"https://ndresponse.gov/covid-19-resources/covid-19-business-and-employer-resources/nd-smart-restart/nd-smart-restart-protocols",
+    "pageLastUpdated":"2000-6-30",
+    "theLatest":[
+      {
+        "type":"headline",
+        "title":"Latest Guidance (6/28/2020)",
+        "link":"https://www.health.nd.gov/diseases-conditions/coronavirus"
+      },
+      {
+        "type":"rawHTML",
+        "body":"Rules for reopening by sector: <a href='https://ndresponse.gov/covid-19-resources/covid-19-business-and-employer-resources/nd-smart-restart/nd-smart-restart-protocols'>[link]</a>."
+      }
+    ]
   },
 
   "oh":{
     "activePage":false,
-    "name":"Ohio"
+    "name":"Ohio",
+    "governor":{
+      "name": "Mike DeWine",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Gov-Mike-DeWine.jpg/330px-Gov-Mike-DeWine.jpg"
+    },
+    "statusbar":{
+      "type":"image",
+      "url":"/images/statusbar/Phase234.png"
+    },
+    "extraImg": null,
+    "phaseMsg": "is not in any phases",
+    "updateMsg": "Ohio is not in any phases",
+    "moreInfoURL":"https://governor.ohio.gov/wps/portal/gov/governor/media/news-and-media/covid19-update-may-7-2020",
+    "pageLastUpdated":"2000-6-30",
+    "theLatest":[
+      {
+        "type":"headline",
+        "title":"Latest Guidance (6/28/2020)",
+        "link":"https://coronavirus.ohio.gov/wps/portal/gov/covid-19/home"
+      },
+      {
+        "type":"rawHTML",
+        "body":"Rules for reopening by sector: <a href='https://coronavirus.ohio.gov/wps/portal/gov/covid-19/responsible-restart-ohio/'>[link]</a>."
+      }
+    ]
   },
 
   "ok":{
@@ -626,7 +1010,7 @@
 
     "extraImg": null,
     "phaseMsg": "Phase 3 of 3",
-    "updateMsg": "Oklahoma is in Phase 3 of 3 in its COVID Reopening Plann",
+    "updateMsg": "Oklahoma is in Phase 3 of 3 in its COVID Reopening Plan",
     "moreInfoURL":"https://coronavirus.health.ok.gov/",
     "pageLastUpdated":"2020-06-30",
 
@@ -641,22 +1025,118 @@
 
   "or":{
     "activePage":false,
-    "name":"Oregon"
+    "name":"Oregon",
+    "governor":{
+      "name": "Kate Brown",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Kate_Brown_in_2017_%28cropped%29.jpg/330px-Kate_Brown_in_2017_%28cropped%29.jpg"
+    },
+    "statusbar":{
+      "type":"image",
+      "url":"/images/statusbar/Phase2.png"
+    },
+    "extraImg": null,
+    "phaseMsg": "is in phase 2",
+    "updateMsg": "Oregon is in phase 2 except 3 counties",
+    "moreInfoURL":"https://www.nc.gov/covid-19/staying-ahead-curve",
+    "pageLastUpdated":"2000-6-30",
+    "theLatest":[
+      {
+        "type":"headline",
+        "title":"Latest Guidance (6/28/2020)",
+        "link":"https://govstatus.egov.com/OR-OHA-COVID-19"
+      },
+      {
+        "type":"rawHTML",
+        "body":"Oregon pauses reopening process after national spike  : <a href='https://www.npr.org/sections/coronavirus-live-updates/2020/06/12/875961223/oregon-pauses-reopening-as-coronavirus-cases-rise'>[link]</a>."
+      }
+    ]
   },
 
   "pa":{
     "activePage":false,
-    "name":"Pennsylvania"
+    "name":"Pennsylvania",
+    "governor":{
+      "name": "Tom Wolf",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Tom_Wolf_governor_portrait_2019.jpg/330px-Tom_Wolf_governor_portrait_2019.jpg"
+    },
+    "statusbar":{
+      "type":"image",
+      "url":"/images/statusbar/Phase3.png"
+    },
+    "extraImg": null,
+    "phaseMsg": "is in phase 3",
+    "updateMsg": "Pennsylvania is in phase 3(green)",
+    "moreInfoURL":"https://www.governor.pa.gov/process-to-reopen-pennsylvania/",
+    "pageLastUpdated":"2000-6-30",
+    "theLatest":[
+      {
+        "type":"headline",
+        "title":"Latest Guidance (6/28/2020)",
+        "link":"https://www.health.pa.gov/topics/disease/coronavirus/Pages/Coronavirus.aspx"
+      },
+      {
+        "type":"rawHTML",
+        "body":"Rules for reopening by sector: <a href='https://www.governor.pa.gov/process-to-reopen-pennsylvania/'>[link]</a>."
+      }
+    ]
   },
 
   "ri":{
     "activePage":false,
-    "name":"Rhode Island"
+    "name":"Rhode Island",
+    "governor":{
+      "name": "Gina Raimondo",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Governor_Gina_Raimondo_of_Rhode_Island.jpg/330px-Governor_Gina_Raimondo_of_Rhode_Island.jpg"
+    },
+    "statusbar":{
+      "type":"image",
+      "url":"/images/statusbar/Phase3.png"
+    },
+    "extraImg": null,
+    "phaseMsg": "is in phase 3",
+    "updateMsg": "Rhode Island is in phase 3",
+    "moreInfoURL":"https://www.reopeningri.com/ ",
+    "pageLastUpdated":"2000-6-30",
+    "theLatest":[
+      {
+        "type":"headline",
+        "title":"Latest Guidance (6/28/2020)",
+        "link":"https://health.ri.gov/covid/"
+      },
+      {
+        "type":"rawHTML",
+        "body":"Rules for reopening by sector: <a href='https://www.reopeningri.com/'>[link]</a>."
+      }
+    ]
   },
 
   "sc":{
     "activePage":false,
-    "name":"South Carolina"
+    "name":"South Carolina",
+    "governor":{
+      "name": "Henry McMaster",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/SC_Governor_Henry_McMaster_2019_%28cropped%29.jpg/330px-SC_Governor_Henry_McMaster_2019_%28cropped%29.jpg"
+    },
+    "statusbar":{
+      "type":"image",
+      "url":"/images/statusbar/Phase234.png"
+    },
+    "extraImg": null,
+    "phaseMsg": "is not in any phases",
+    "updateMsg": "South Carolina is not in any phases",
+    "moreInfoURL":"https://www.scdhec.gov/infectious-diseases/viruses/coronavirus-disease-2019-covid-19/frequently-asked-questions-covid-19#:~:text=You%20can%20find%20reopening%20guidelines,or%20new%20guidance%20documents. ",
+    "pageLastUpdated":"2000-6-30",
+    "theLatest":[
+      {
+        "type":"headline",
+        "title":"Latest Guidance (6/28/2020)",
+        "link":"https://www.scdhec.gov/news-releases/south-carolina-announces-latest-covid-19-update-june-30-2020"
+      },
+      {
+        "type":"rawHTML",
+        "body":"Rules for reopening by sector: <a href='https://www.scdhec.gov/infectious-diseases/viruses/coronavirus-disease-2019-covid-19/frequently-asked-questions-covid-19#:~:text=You%20can%20find%20reopening%20guidelines,or%20new%20guidance%20documents.'>[link]</a>."
+      }
+    ]
   },
 
   "sd":{
@@ -690,27 +1170,147 @@
 
   "tn":{
     "activePage":false,
-    "name":"Tennessee"
+    "name":"Tennessee",
+    "governor":{
+      "name": "Bill Lee",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Bill_Lee_2020.jpg/330px-Bill_Lee_2020.jpg"
+    },
+    "statusbar":{
+      "type":"image",
+      "url":"/images/statusbar/Phase2.png"
+    },
+    "extraImg": null,
+    "phaseMsg": "is in phase 2",
+    "updateMsg": "Tennessee is in phase 2",
+    "moreInfoURL":"https://www.tn.gov/education/health-and-safety/update-on-coronavirus/reopening-guidance.html",
+    "pageLastUpdated":"2000-6-30",
+    "theLatest":[
+      {
+        "type":"headline",
+        "title":"Latest Guidance (6/28/2020)",
+        "link":"https://www.tn.gov/health/cedep/ncov.html"
+      },
+      {
+        "type":"rawHTML",
+        "body":"Tennessee's largest county could return to Phase 1 of reopening due to spike in COVID-19 cases: <a href='https://abcnews.go.com/US/tennessees-largest-county-return-phase-reopening-due-spike/story?id=71379050'>[link]</a>."
+      }
+    ]
   },
 
   "tx":{
     "activePage":false,
-    "name":"Texas"
+    "name":"Texas",
+    "governor":{
+      "name": "Greg Abbott",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Greg_Abbott_2015.jpg/330px-Greg_Abbott_2015.jpg"
+    },
+    "statusbar":{
+      "type":"image",
+      "url":"/images/statusbar/Phase2.png"
+    },
+    "extraImg": null,
+    "phaseMsg": "is not in any phases",
+    "updateMsg": "Texas is not in any phases",
+    "moreInfoURL":"https://www.dshs.state.tx.us/coronavirus/opentexas.aspx",
+    "pageLastUpdated":"2000-6-30",
+    "theLatest":[
+      {
+        "type":"headline",
+        "title":"Latest Guidance (6/28/2020)",
+        "link":"https://www.dshs.state.tx.us/coronavirus/"
+      },
+      {
+        "type":"rawHTML",
+        "body":"Texas Pauses Reopening as Virus Cases Soar Across the South and West: <a href='https://www.nytimes.com/2020/06/25/us/texas-coronavirus-cases-reopening-Greg-Abbott.html'>[link]</a>."
+      }
+    ]
   },
 
   "ut":{
     "activePage":false,
-    "name":"Utah"
+    "name":"Utah",
+    "governor":{
+      "name": "Gary Herbert",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/2013-05-23_Gary_R_Herbert.JPG/330px-2013-05-23_Gary_R_Herbert.JPG"
+    },
+    "statusbar":{
+      "type":"image",
+      "url":"/images/statusbar/Phase2.png"
+    },
+    "extraImg": null,
+    "phaseMsg": "is in phase 4",
+    "updateMsg": "Utah is in phase 4",
+    "moreInfoURL":"http://coronavirus.utah.gov/utah-leads-together/#4.0",
+    "pageLastUpdated":"2000-6-30",
+    "theLatest":[
+      {
+        "type":"headline",
+        "title":"Latest Guidance (6/28/2020)",
+        "link":"https://coronavirus.utah.gov/"
+      },
+      {
+        "type":"rawHTML",
+        "body":"Reopening plan updates: <a href='https://coronavirus.utah.gov/utah-leads-together/'>[link]</a>."
+      }
+    ]
   },
 
   "vt":{
     "activePage":false,
-    "name":"Vermont"
+    "name":"Vermont",
+    "governor":{
+      "name": "Phil Scott",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Phil_Scott_2017.jpg/330px-Phil_Scott_2017.jpg"
+    },
+    "statusbar":{
+      "type":"image",
+      "url":"/images/statusbar/Phase234.png"
+    },
+    "extraImg": null,
+    "phaseMsg": "is not in any phases",
+    "updateMsg": "Vermont is not in any phases",
+    "moreInfoURL":"https://accd.vermont.gov/covid-19/business/restart",
+    "pageLastUpdated":"2000-6-30",
+    "theLatest":[
+      {
+        "type":"headline",
+        "title":"Latest Guidance (6/28/2020)",
+        "link":"https://www.healthvermont.gov/response/coronavirus-covid-19"
+      },
+      {
+        "type":"rawHTML",
+        "body":"Rules for reopening by sector: <a href='https://accd.vermont.gov/covid-19/business/restart/plans'>[link]</a>."
+      }
+    ]
   },
 
   "va":{
     "activePage":false,
-    "name":"Virginia"
+    "name":"Virginia",
+    "governor":{
+      "name": "Ralph Northam",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Governor_Ralph_Northam_Gives_Inaugural_Address_%2839348612584%29_%28cropped%29.jpg/330px-Governor_Ralph_Northam_Gives_Inaugural_Address_%2839348612584%29_%28cropped%29.jpg"
+    },
+    "statusbar":{
+      "type":"image",
+      "url":"/images/statusbar/Phase2.png"
+    },
+    "extraImg": null,
+    "phaseMsg": "is is in phase 2",
+    "updateMsg": "Virginia is in phase 2",
+    "moreInfoURL":"https://www.vdh.virginia.gov/coronavirus/frequently-asked-questions/phase-1-safer-at-home/",
+    "pageLastUpdated":"2000-6-30",
+    "theLatest":[
+      {
+        "type":"headline",
+        "title":"Latest Guidance (6/28/2020)",
+        "link":"https://www.vdh.virginia.gov/coronavirus/"
+      },
+      {
+        "type":"rawHTML",
+        "body":"Rules for reopening by sector: <a href='https://www.vdh.virginia.gov/coronavirus/frequently-asked-questions/phase-1-safer-at-home/'>[link]</a>."
+      }
+    ]
   },
 
   "wa":{
@@ -740,22 +1340,118 @@
 
   "wv":{
     "activePage":false,
-    "name":"West Virginia"
+    "name":"West Virginia",
+    "governor":{
+      "name": "Jim Justice",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Jim_Justice_2017_InaugurationHighlights_PB-63_%2832366955776%29_%28cropped%29.jpg/330px-Jim_Justice_2017_InaugurationHighlights_PB-63_%2832366955776%29_%28cropped%29.jpg"
+    },
+    "statusbar":{
+      "type":"image",
+      "url":"/images/statusbar/Phase234.png"
+    },
+    "extraImg": null,
+    "phaseMsg": "is is is not in any phases",
+    "updateMsg": "West Virginia is not in any phases",
+    "moreInfoURL":"https://dhhr.wv.gov/covid-19/pages/default.aspx",
+    "pageLastUpdated":"2000-6-30",
+    "theLatest":[
+      {
+        "type":"headline",
+        "title":"Latest Guidance (6/28/2020)",
+        "link":"https://dhhr.wv.gov/covid-19/pages/default.aspx"
+      },
+      {
+        "type":"rawHTML",
+        "body":"Coronavirus In West Virginia: Indoor Restaurants, Malls And Outdoor Recreation Reopen <a href='https://pittsburgh.cbslocal.com/2020/05/21/west-virginia-governor-expands-reopenings-as-hotspots-emerge/'>[link]</a>."
+      }
+    ]
   },
 
   "wi":{
     "activePage":false,
-    "name":"Wisconsin"
+    "name":"Wisconsin",
+    "governor":{
+      "name": "Tony Evers",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Tony_Evers_%28cropped%29.jpg/330px-Tony_Evers_%28cropped%29.jpg"
+    },
+    "statusbar":{
+      "type":"image",
+      "url":"/images/statusbar/Phase234.png"
+    },
+    "extraImg": null,
+    "phaseMsg": "is not in any phases",
+    "updateMsg": "Wisconsin is not in any phases",
+    "moreInfoURL":"https://wedc.org/reopen-guidelines/",
+    "pageLastUpdated":"2000-6-30",
+    "theLatest":[
+      {
+        "type":"headline",
+        "title":"Latest Guidance (6/28/2020)",
+        "link":"https://www.dhs.wisconsin.gov/covid-19/index.htm"
+      },
+      {
+        "type":"rawHTML",
+        "body":"Rules for reopening by sector: <a href='https://wedc.org/reopen-guidelines/'>[link]</a>."
+      }
+    ]
   },
 
   "wy":{
     "activePage":false,
-    "name":"Wyoming"
+    "name":"Wyoming",
+    "governor":{
+      "name": "Mark Gordon",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Wyoming_Governor_Mark_Gordon_2019_%28cropped%29.jpg/330px-Wyoming_Governor_Mark_Gordon_2019_%28cropped%29.jpg"
+    },
+    "statusbar":{
+      "type":"image",
+      "url":"/images/statusbar/Phase234.png"
+    },
+    "extraImg": null,
+    "phaseMsg": "is not in any phases",
+    "updateMsg": "Wyoming is not in any phases",
+    "moreInfoURL":"https://wedc.org/reopen-guidelines/",
+    "pageLastUpdated":"2000-6-30",
+    "theLatest":[
+      {
+        "type":"headline",
+        "title":"Latest Guidance (6/28/2020)",
+        "link":"https://health.wyo.gov/publichealth/infectious-disease-epidemiology-unit/disease/novel-coronavirus/"
+      },
+      {
+        "type":"rawHTML",
+        "body":"Wyoming Coronavirus Related Deaths Rise As State Reopens, More Deaths Expected: <a href='https://www.wyomingpublicmedia.org/post/wyoming-coronavirus-related-deaths-rise-state-reopens-more-deaths-expected#stream/0'>[link]</a>."
+      }
+    ]
   },
 
   "dc":{
     "activePage":false,
-    "name":"Washington D.C."
+    "name":"Washington D.C.",
+    "governor":{
+      "name": "Muriel Bowser",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Muriel_Bowser_official_photo.jpg/330px-Muriel_Bowser_official_photo.jpg"
+    },
+    "statusbar":{
+      "type":"image",
+      "url":"/images/statusbar/Phase2.png"
+    },
+    "extraImg": null,
+    "phaseMsg": "is in phase 2",
+    "updateMsg": "Washington D.C. is in phase 2 since June 22nd",
+    "moreInfoURL":"https://coronavirus.dc.gov/phasetwo",
+    "pageLastUpdated":"2000-6-30",
+    "theLatest":[
+      {
+        "type":"headline",
+        "title":"Latest Guidance (6/28/2020)",
+        "link":"https://coronavirus.dc.gov/"
+      },
+      {
+        "type":"rawHTML",
+        "body":"Rules for reopening by sector: <a href='https://coronavirus.dc.gov/phasetwo'>[link]</a>."
+      }
+    ]
   }
 
 }
