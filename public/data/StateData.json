@@ -447,7 +447,7 @@
 
   "ks":{
     "activePage":false,
-    "name":"Kansas"
+    "name":"Kansas",
     "governor":{
       "name": "Laura Kelly",
       "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Laura_Kelly_official_photo.jpg/330px-Laura_Kelly_official_photo.jpg"
@@ -460,12 +460,12 @@
     "phaseMsg": "is in Phase 3",
     "updateMsg": "Kansas is in Phase 3 since June 8th",
     "moreInfoURL":"https://www.coronavirus.kdheks.gov/225/How-to-protect-yourself-and-others",
-    "pageLastUpdated":"2000-6-30",
+    "pageLastUpdated":"2020-6-30",
     "theLatest":[
       {
         "type":"headline",
         "title":"Latest Guidance (6/28/2020)",
-        "link":"https://coronavirus.iowa.gov/pages/resources"
+        "link":"https://www.coronavirus.kdheks.gov/225/How-to-protect-yourself-and-others"
       },
       {
         "type":"rawHTML",

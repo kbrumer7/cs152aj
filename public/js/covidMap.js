@@ -4,7 +4,7 @@ $(document).ready(function() {
    * **/
   $('#map').usmap({
       stateStyles: {fill: '#fff'},
-      
+
       stateHoverStyles: {fill: 'rgb(183, 180, 224)'},
 
       stateHoverAnimation: 200,
@@ -192,7 +192,8 @@ $(document).ready(function() {
       'IA':{fill:'orange'},
       'OK':{fill:'blue'},
       'NE':{fill:'blue'},
-      'SD':{fill:'green'}
+      'SD':{fill:'green'},
+      'KS':{fill:'blue'}
 
 
       //'FL': {fill: 'light blue'}
