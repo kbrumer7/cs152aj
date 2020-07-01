@@ -80,9 +80,7 @@ app.get("/belle", (req, res) => {
 });
 
 app.get("/ma", stateController.showStateWithData);
-
 app.get("/ca", stateController.showStateWithData);
-
 app.get("/ny", stateController.showGenericStateWithData);
 app.get("/ct", stateController.showGenericStateWithData);
 app.get("/al", stateController.showGenericStateWithData);
@@ -99,6 +97,41 @@ app.get("/id", stateController.showGenericStateWithData);
 app.get("/in", stateController.showGenericStateWithData);
 app.get("/il", stateController.showGenericStateWithData);
 app.get("/ia", stateController.showGenericStateWithData);
+app.get("/KS", stateController.showGenericStateWithData);
+app.get("/KY", stateController.showGenericStateWithData);
+app.get("/LA", stateController.showGenericStateWithData);
+app.get("/ME", stateController.showGenericStateWithData);
+app.get("/MD", stateController.showGenericStateWithData);
+app.get("/MI", stateController.showGenericStateWithData);
+app.get("/MN", stateController.showGenericStateWithData);
+app.get("/MS", stateController.showGenericStateWithData);
+app.get("/MO", stateController.showGenericStateWithData);
+app.get("/MT", stateController.showGenericStateWithData);
+app.get("/NE", stateController.showGenericStateWithData);
+app.get("/NV", stateController.showGenericStateWithData);
+app.get("/NH", stateController.showGenericStateWithData);
+app.get("/NJ", stateController.showGenericStateWithData);
+app.get("/NM", stateController.showGenericStateWithData);
+app.get("/NC", stateController.showGenericStateWithData);
+app.get("/ND", stateController.showGenericStateWithData);
+app.get("/OH", stateController.showGenericStateWithData);
+app.get("/OK", stateController.showGenericStateWithData);
+app.get("/OR", stateController.showGenericStateWithData);
+app.get("/PA", stateController.showGenericStateWithData);
+app.get("/RI", stateController.showGenericStateWithData);
+app.get("/SC", stateController.showGenericStateWithData);
+app.get("/SD", stateController.showGenericStateWithData);
+app.get("/TN", stateController.showGenericStateWithData);
+app.get("/TX", stateController.showGenericStateWithData);
+app.get("/UT", stateController.showGenericStateWithData);
+app.get("/VT", stateController.showGenericStateWithData);
+app.get("/VA", stateController.showGenericStateWithData);
+app.get("/WA", stateController.showGenericStateWithData);
+app.get("/WV", stateController.showGenericStateWithData);
+app.get("/WI", stateController.showGenericStateWithData);
+app.get("/WY", stateController.showGenericStateWithData);
+app.get("/dc", stateController.showGenericStateWithData);
+
 app.get("/contact", homeController.showSignUp);
 app.get("/forum", homeController.showForum);
 
