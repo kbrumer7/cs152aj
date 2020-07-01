@@ -131,7 +131,6 @@ app.get("/WV", stateController.showGenericStateWithData);
 app.get("/WI", stateController.showGenericStateWithData);
 app.get("/WY", stateController.showGenericStateWithData);
 app.get("/dc", stateController.showGenericStateWithData);
-
 app.get("/contact", homeController.showSignUp);
 app.get("/forum", homeController.showForum);
 

@@ -275,8 +275,8 @@
     "activePage":false,
     "name":"Georgia",
     "governor":{
-      "name": "Ron DeSantis",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Ron_DeSantis%2C_Official_Portrait%2C_113th_Congress.jpg/330px-Ron_DeSantis%2C_Official_Portrait%2C_113th_Congress.jpg"
+      "name": "Brian Kemp",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/David_Perdue_and_Brian_Kemp_%28cropped%29.jpg/457px-David_Perdue_and_Brian_Kemp_%28cropped%29.jpg"
     },
     "statusbar":{
       "type":"image",
@@ -525,8 +525,32 @@
   },
 
   "ne":{
-    "activePage":false,
-    "name":"Nebraska"
+    "activePage":true,
+    "name":"Nebraska",
+
+    "governor":{
+      "name": "Pete Ricketts",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Pete_Ricketts_by_Gage_Skidmore.jpg/445px-Pete_Ricketts_by_Gage_Skidmore.jpg"
+    },
+
+    "statusbar":{
+      "type":"image",
+      "url":"/images/statusbar/Phase3.png"
+    },
+
+    "extraImg": null,
+    "phaseMsg": "Phase 3 or 2",
+    "updateMsg": "Nebraska is in Phase 3 in all except for Dakota, Hall, Hamilton and Merrick Counties (Phase 2)",
+    "moreInfoURL":"http://dhhs.ne.gov/Pages/Coronavirus.aspx",
+    "pageLastUpdated":"2020-06-30",
+
+    "theLatest":[
+      {
+        "type":"headline",
+        "title":"Outlie of reopening phases.",
+        "link":"http://dhhs.ne.gov/Pages/COVID-19-Directed-Health-Measures.aspx"
+      }
+    ]
   },
 
   "nv":{
@@ -587,8 +611,32 @@
   },
 
   "ok":{
-    "activePage":false,
-    "name":"Oklahoma"
+    "activePage":true,
+    "name":"Oklahoma",
+
+    "governor":{
+      "name": "Kevin Stitt",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Kevin_Stitt_2020_%28cropped%29.png/440px-Kevin_Stitt_2020_%28cropped%29.png"
+    },
+
+    "statusbar":{
+      "type":"image",
+      "url":"/images/statusbar/Phase3.png"
+    },
+
+    "extraImg": null,
+    "phaseMsg": "Phase 3 of 3",
+    "updateMsg": "Oklahoma is in Phase 3 of 3 in its COVID Reopening Plann",
+    "moreInfoURL":"https://coronavirus.health.ok.gov/",
+    "pageLastUpdated":"2020-06-30",
+
+    "theLatest":[
+      {
+        "type":"headline",
+        "title":"\"Open up and Recover Safely\" Plan",
+        "link":"https://www.okcommerce.gov/wp-content/uploads/Open-Up-and-Recover-Safely-Plan.pdf"
+      }
+    ]
   },
 
   "or":{
@@ -612,8 +660,32 @@
   },
 
   "sd":{
-    "activePage":false,
-    "name":"South Dakota"
+    "activePage":true,
+    "name":"South Dakota",
+
+    "governor":{
+      "name": "Kristi Noem",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Kristi_L._Noem_113th_Congress.jpg/450px-Kristi_L._Noem_113th_Congress.jpg"
+    },
+
+    "statusbar":{
+      "type":"image",
+      "url":"/images/statusbar/Phase4.png"
+    },
+
+    "extraImg": null,
+    "phaseMsg": "South Dakota is not in any phase",
+    "updateMsg": "Citizens can go about their normal life, and are encouraged to practice common sense and reasonable social distancing",
+    "moreInfoURL":"https://doh.sd.gov/news/Coronavirus.aspx",
+    "pageLastUpdated":"2020-06-30",
+
+    "theLatest":[
+      {
+        "type":"headline",
+        "title":"South Dakota's Back to Normal Plan",
+        "link":"https://covid.sd.gov/docs/COVID_SDPlan_BackToNormal.pdf"
+      }
+    ]
   },
 
   "tn":{
